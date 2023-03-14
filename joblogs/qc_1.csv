@@ -1,0 +1,551 @@
+Seq,Host,Starttime,JobRuntime,Send,Receive,Exitval,Signal,Command,V1,Stdout,Stderr
+10,:,1678614117.400,4.457,0,79,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_3_4.lp",data/formulae_1/qc_1_3_4.lp,"iota(""A"",return_er)
+support((notprecedence,(return_er,er_sepsis_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   4%|▍         | 44/1050 [00:00<00:02, 439.99it/s]parsing log, completed traces ::  22%|██▏       | 231/1050 [00:00<00:00, 1279.88it/s]parsing log, completed traces ::  38%|███▊      | 400/1050 [00:00<00:00, 1464.73it/s]parsing log, completed traces ::  56%|█████▋    | 592/1050 [00:00<00:00, 1643.40it/s]parsing log, completed traces ::  74%|███████▍  | 778/1050 [00:00<00:00, 1716.83it/s]parsing log, completed traces ::  90%|█████████ | 950/1050 [00:00<00:00, 1295.88it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1399.33it/s]
+"
+3,:,1678614117.373,4.883,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_2_2.lp",data/formulae_1/qc_1_2_2.lp,"iota(""A"",er_registration)
+support((choice,(er_registration,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:24,  7.27it/s]parsing log, completed traces ::  20%|█▉        | 205/1050 [00:00<00:00, 1041.07it/s]parsing log, completed traces ::  36%|███▋      | 382/1050 [00:00<00:00, 1347.71it/s]parsing log, completed traces ::  55%|█████▍    | 573/1050 [00:00<00:00, 1557.91it/s]parsing log, completed traces ::  73%|███████▎  | 765/1050 [00:00<00:00, 1683.59it/s]parsing log, completed traces ::  89%|████████▉ | 939/1050 [00:00<00:00, 1311.17it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1337.93it/s]
+"
+4,:,1678614117.378,5.062,0,89,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_2_3.lp",data/formulae_1/qc_1_2_3.lp,"iota(""A"",er_registration)
+support((notchainprecedence,(er_registration,release_a)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:11,  7.96it/s]parsing log, completed traces ::  17%|█▋        | 182/1050 [00:00<00:00, 962.80it/s]parsing log, completed traces ::  34%|███▍      | 356/1050 [00:00<00:00, 1288.86it/s]parsing log, completed traces ::  51%|█████     | 537/1050 [00:00<00:00, 1485.84it/s]parsing log, completed traces ::  68%|██████▊   | 717/1050 [00:00<00:00, 1595.17it/s]parsing log, completed traces ::  84%|████████▍ | 880/1050 [00:00<00:00, 1082.94it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1212.54it/s]
+"
+2,:,1678614117.369,5.276,0,71,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_2_1.lp",data/formulae_1/qc_1_2_1.lp,"iota(""A"",admission_nc)
+support((choice,(admission_nc,er_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:56,  9.00it/s]parsing log, completed traces ::  19%|█▉        | 202/1050 [00:00<00:00, 1134.19it/s]parsing log, completed traces ::  36%|███▌      | 378/1050 [00:00<00:00, 1410.84it/s]parsing log, completed traces ::  54%|█████▍    | 565/1050 [00:00<00:00, 1586.22it/s]parsing log, completed traces ::  72%|███████▏  | 756/1050 [00:00<00:00, 1701.14it/s]parsing log, completed traces ::  88%|████████▊ | 928/1050 [00:00<00:00, 1382.05it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1408.68it/s]
+"
+5,:,1678614117.382,5.459,0,89,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_2_4.lp",data/formulae_1/qc_1_2_4.lp,"iota(""A"",iv_antibiotics)
+support((notprecedence,(iv_antibiotics,er_sepsis_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:20,  7.44it/s]parsing log, completed traces ::  19%|█▉        | 200/1050 [00:00<00:00, 1028.50it/s]parsing log, completed traces ::  36%|███▌      | 376/1050 [00:00<00:00, 1337.25it/s]parsing log, completed traces ::  54%|█████▎    | 563/1050 [00:00<00:00, 1536.09it/s]parsing log, completed traces ::  72%|███████▏  | 751/1050 [00:00<00:00, 1655.82it/s]parsing log, completed traces ::  88%|████████▊ | 922/1050 [00:00<00:00, 1247.81it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1303.68it/s]
+"
+1,:,1678614117.365,5.960,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_2_0.lp",data/formulae_1/qc_1_2_0.lp,"iota(""A"",release_a)
+support((notchainprecedence,(release_a,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<03:00,  5.82it/s]parsing log, completed traces ::  19%|█▉        | 203/1050 [00:00<00:00, 917.05it/s]parsing log, completed traces ::  36%|███▋      | 381/1050 [00:00<00:00, 1252.07it/s]parsing log, completed traces ::  54%|█████▍    | 571/1050 [00:00<00:00, 1483.17it/s]parsing log, completed traces ::  72%|███████▏  | 761/1050 [00:00<00:00, 1622.52it/s]parsing log, completed traces ::  89%|████████▉ | 934/1050 [00:00<00:00, 1227.77it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1250.18it/s]
+"
+6,:,1678614117.386,5.989,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_3_0.lp",data/formulae_1/qc_1_3_0.lp,"iota(""A"",release_a)
+support((notchainprecedence,(release_a,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:58,  8.86it/s]parsing log, completed traces ::  18%|█▊        | 194/1050 [00:00<00:00, 1078.81it/s]parsing log, completed traces ::  35%|███▌      | 369/1050 [00:00<00:00, 1370.45it/s]parsing log, completed traces ::  53%|█████▎    | 560/1050 [00:00<00:00, 1576.27it/s]parsing log, completed traces ::  72%|███████▏  | 751/1050 [00:00<00:00, 1691.42it/s]parsing log, completed traces ::  88%|████████▊ | 922/1050 [00:00<00:00, 1186.79it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1296.27it/s]
+"
+8,:,1678614117.393,6.154,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_3_2.lp",data/formulae_1/qc_1_3_2.lp,"iota(""A"",er_registration)
+support((choice,(er_registration,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:54,  9.16it/s]parsing log, completed traces ::  18%|█▊        | 187/1050 [00:00<00:00, 1058.05it/s]parsing log, completed traces ::  35%|███▍      | 363/1050 [00:00<00:00, 1371.69it/s]parsing log, completed traces ::  53%|█████▎    | 552/1050 [00:00<00:00, 1566.21it/s]parsing log, completed traces ::  71%|███████   | 742/1050 [00:00<00:00, 1683.81it/s]parsing log, completed traces ::  87%|████████▋ | 912/1050 [00:00<00:00, 1183.23it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1296.77it/s]
+"
+7,:,1678614117.389,6.743,0,67,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_3_1.lp",data/formulae_1/qc_1_3_1.lp,"iota(""A"",leucocytes)
+support((choice,(leucocytes,er_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:12,  7.94it/s]parsing log, completed traces ::  19%|█▉        | 200/1050 [00:00<00:00, 1059.62it/s]parsing log, completed traces ::  36%|███▌      | 375/1050 [00:00<00:00, 1351.12it/s]parsing log, completed traces ::  54%|█████▎    | 563/1050 [00:00<00:00, 1547.44it/s]parsing log, completed traces ::  72%|███████▏  | 751/1050 [00:00<00:00, 1658.50it/s]parsing log, completed traces ::  88%|████████▊ | 921/1050 [00:00<00:00, 1140.24it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1253.23it/s]
+"
+9,:,1678614117.397,6.763,0,83,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_3_3.lp",data/formulae_1/qc_1_3_3.lp,"iota(""A"",admission_ic)
+support((notchainprecedence,(admission_ic,release_a)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<03:08,  5.57it/s]parsing log, completed traces ::  20%|█▉        | 205/1050 [00:00<00:00, 906.02it/s]parsing log, completed traces ::  37%|███▋      | 384/1050 [00:00<00:00, 1247.77it/s]parsing log, completed traces ::  55%|█████▍    | 576/1050 [00:00<00:00, 1486.43it/s]parsing log, completed traces ::  73%|███████▎  | 768/1050 [00:00<00:00, 1632.07it/s]parsing log, completed traces ::  90%|████████▉ | 943/1050 [00:00<00:00, 1251.43it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1253.36it/s]
+"
+11,:,1678614117.404,7.244,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_4_0.lp",data/formulae_1/qc_1_4_0.lp,"iota(""A"",iv_liquid)
+support((notchainprecedence,(iv_liquid,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   5%|▌         | 56/1050 [00:00<00:01, 556.06it/s]parsing log, completed traces ::  24%|██▎       | 248/1050 [00:00<00:00, 1346.41it/s]parsing log, completed traces ::  40%|███▉      | 418/1050 [00:00<00:00, 1504.45it/s]parsing log, completed traces ::  59%|█████▊    | 615/1050 [00:00<00:00, 1681.87it/s]parsing log, completed traces ::  77%|███████▋  | 806/1050 [00:00<00:00, 1759.87it/s]parsing log, completed traces ::  94%|█████████▎| 982/1050 [00:00<00:00, 1334.50it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1431.23it/s]
+"
+12,:,1678614117.407,7.326,0,79,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_4_1.lp",data/formulae_1/qc_1_4_1.lp,"iota(""A"",er_sepsis_triage)
+support((choice,(er_sepsis_triage,er_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:39,  6.57it/s]parsing log, completed traces ::  19%|█▉        | 202/1050 [00:00<00:00, 976.58it/s]parsing log, completed traces ::  36%|███▌      | 379/1050 [00:00<00:00, 1300.33it/s]parsing log, completed traces ::  54%|█████▍    | 566/1050 [00:00<00:00, 1510.24it/s]parsing log, completed traces ::  72%|███████▏  | 757/1050 [00:00<00:00, 1645.69it/s]parsing log, completed traces ::  88%|████████▊ | 929/1050 [00:00<00:00, 1214.40it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1266.64it/s]
+"
+13,:,1678614121.866,6.578,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_4_2.lp",data/formulae_1/qc_1_4_2.lp,"iota(""A"",er_registration)
+support((choice,(er_registration,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<03:03,  5.70it/s]parsing log, completed traces ::  19%|█▉        | 197/1050 [00:00<00:00, 882.49it/s]parsing log, completed traces ::  33%|███▎      | 351/1050 [00:00<00:00, 1137.91it/s]parsing log, completed traces ::  48%|████▊     | 501/1050 [00:00<00:00, 1262.58it/s]parsing log, completed traces ::  61%|██████    | 640/1050 [00:00<00:00, 925.76it/s] parsing log, completed traces ::  72%|███████▏  | 752/1050 [00:00<00:00, 864.17it/s]parsing log, completed traces ::  81%|████████  | 851/1050 [00:00<00:00, 817.02it/s]parsing log, completed traces ::  90%|████████▉ | 941/1050 [00:01<00:00, 537.69it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 763.11it/s]
+"
+20,:,1678614123.554,5.484,0,79,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_5_4.lp",data/formulae_1/qc_1_5_4.lp,"iota(""A"",release_c)
+support((notprecedence,(release_c,er_sepsis_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   7%|▋         | 69/1050 [00:00<00:01, 688.72it/s]parsing log, completed traces ::  26%|██▌       | 274/1050 [00:00<00:00, 1485.46it/s]parsing log, completed traces ::  44%|████▍     | 463/1050 [00:00<00:00, 1669.04it/s]parsing log, completed traces ::  62%|██████▏   | 648/1050 [00:00<00:00, 1736.63it/s]parsing log, completed traces ::  82%|████████▏ | 856/1050 [00:00<00:00, 1860.00it/s]parsing log, completed traces ::  99%|█████████▉| 1043/1050 [00:00<00:00, 1426.81it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1512.33it/s]
+"
+15,:,1678614122.462,6.965,0,79,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_4_4.lp",data/formulae_1/qc_1_4_4.lp,"iota(""A"",release_a)
+support((notprecedence,(release_a,er_sepsis_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<03:48,  4.60it/s]parsing log, completed traces ::  11%|█         | 111/1050 [00:00<00:02, 438.47it/s]parsing log, completed traces ::  17%|█▋        | 176/1050 [00:00<00:01, 452.03it/s]parsing log, completed traces ::  32%|███▏      | 331/1050 [00:00<00:00, 794.04it/s]parsing log, completed traces ::  48%|████▊     | 506/1050 [00:00<00:00, 1088.45it/s]parsing log, completed traces ::  60%|██████    | 631/1050 [00:00<00:00, 995.08it/s] parsing log, completed traces ::  77%|███████▋  | 813/1050 [00:00<00:00, 1221.97it/s]parsing log, completed traces ::  90%|█████████ | 947/1050 [00:01<00:00, 934.96it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 890.16it/s]
+"
+14,:,1678614122.263,7.503,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_4_3.lp",data/formulae_1/qc_1_4_3.lp,"iota(""A"",release_e)
+support((notchainprecedence,(release_e,release_a)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<03:13,  5.42it/s]parsing log, completed traces ::   4%|▍         | 46/1050 [00:00<00:05, 197.65it/s]parsing log, completed traces ::  18%|█▊        | 192/1050 [00:00<00:01, 679.10it/s]parsing log, completed traces ::  35%|███▍      | 363/1050 [00:00<00:00, 1039.26it/s]parsing log, completed traces ::  49%|████▉     | 513/1050 [00:00<00:00, 1189.91it/s]parsing log, completed traces ::  66%|██████▌   | 695/1050 [00:00<00:00, 1392.92it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1099.61it/s]parsing log, completed traces ::  95%|█████████▌| 1001/1050 [00:01<00:00, 945.92it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 921.57it/s]
+"
+16,:,1678614122.652,7.516,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_5_0.lp",data/formulae_1/qc_1_5_0.lp,"iota(""A"",release_c)
+support((notchainprecedence,(release_c,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:47,  9.74it/s]parsing log, completed traces ::  19%|█▉        | 200/1050 [00:00<00:00, 1157.32it/s]parsing log, completed traces ::  37%|███▋      | 391/1050 [00:00<00:00, 1497.78it/s]parsing log, completed traces ::  57%|█████▋    | 595/1050 [00:00<00:00, 1709.88it/s]parsing log, completed traces ::  74%|███████▍  | 778/1050 [00:00<00:00, 1747.57it/s]parsing log, completed traces ::  91%|█████████ | 954/1050 [00:00<00:00, 1236.94it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1350.37it/s]
+"
+18,:,1678614123.333,6.927,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_5_2.lp",data/formulae_1/qc_1_5_2.lp,"iota(""A"",er_registration)
+support((choice,(er_registration,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:14,  7.79it/s]parsing log, completed traces ::  21%|██        | 221/1050 [00:00<00:00, 1162.62it/s]parsing log, completed traces ::  37%|███▋      | 387/1050 [00:00<00:00, 1374.78it/s]parsing log, completed traces ::  57%|█████▋    | 596/1050 [00:00<00:00, 1639.56it/s]parsing log, completed traces ::  76%|███████▌  | 798/1050 [00:00<00:00, 1772.63it/s]parsing log, completed traces ::  93%|█████████▎| 980/1050 [00:00<00:00, 1160.25it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1268.21it/s]
+"
+19,:,1678614123.394,7.863,0,89,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_5_3.lp",data/formulae_1/qc_1_5_3.lp,"iota(""A"",er_registration)
+support((notchainprecedence,(er_registration,release_a)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<04:05,  4.28it/s]parsing log, completed traces ::  18%|█▊        | 190/1050 [00:00<00:01, 716.22it/s]parsing log, completed traces ::  35%|███▍      | 363/1050 [00:00<00:00, 1069.29it/s]parsing log, completed traces ::  53%|█████▎    | 552/1050 [00:00<00:00, 1340.26it/s]parsing log, completed traces ::  71%|███████   | 744/1050 [00:00<00:00, 1520.21it/s]parsing log, completed traces ::  87%|████████▋ | 914/1050 [00:00<00:00, 1232.60it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1170.29it/s]
+"
+17,:,1678614122.846,8.709,0,65,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_5_1.lp",data/formulae_1/qc_1_5_1.lp,"iota(""A"",return_er)
+support((choice,(return_er,er_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:45,  6.33it/s]parsing log, completed traces ::  18%|█▊        | 194/1050 [00:00<00:00, 917.75it/s]parsing log, completed traces ::  34%|███▍      | 362/1050 [00:00<00:00, 1223.93it/s]parsing log, completed traces ::  51%|█████     | 536/1050 [00:00<00:00, 1410.78it/s]parsing log, completed traces ::  68%|██████▊   | 709/1050 [00:00<00:00, 1515.11it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1197.07it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1240.62it/s]
+"
+23,:,1678614124.654,7.246,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_6_2.lp",data/formulae_1/qc_1_6_2.lp,"iota(""A"",er_registration)
+support((choice,(er_registration,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 79/1050 [00:00<00:01, 785.30it/s]parsing log, completed traces ::  26%|██▌       | 272/1050 [00:00<00:00, 1454.81it/s]parsing log, completed traces ::  43%|████▎     | 450/1050 [00:00<00:00, 1601.31it/s]parsing log, completed traces ::  61%|██████    | 642/1050 [00:00<00:00, 1725.08it/s]parsing log, completed traces ::  79%|███████▊  | 825/1050 [00:00<00:00, 1759.96it/s]parsing log, completed traces ::  95%|█████████▌| 1002/1050 [00:00<00:00, 1382.47it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1482.93it/s]
+"
+21,:,1678614124.138,8.559,0,77,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_6_0.lp",data/formulae_1/qc_1_6_0.lp,"iota(""A"",release_c)
+support((notchainprecedence,(release_c,iv_liquid)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:50,  9.53it/s]parsing log, completed traces ::  18%|█▊        | 187/1050 [00:00<00:00, 1075.49it/s]parsing log, completed traces ::  35%|███▍      | 364/1050 [00:00<00:00, 1388.14it/s]parsing log, completed traces ::  53%|█████▎    | 552/1050 [00:00<00:00, 1578.41it/s]parsing log, completed traces ::  71%|███████   | 743/1050 [00:00<00:00, 1696.74it/s]parsing log, completed traces ::  87%|████████▋ | 914/1050 [00:00<00:00, 1152.71it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1284.55it/s]
+"
+22,:,1678614124.167,8.609,0,65,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_6_1.lp",data/formulae_1/qc_1_6_1.lp,"iota(""A"",release_b)
+support((choice,(release_b,er_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:01,  8.64it/s]parsing log, completed traces ::  16%|█▋        | 172/1050 [00:00<00:00, 944.86it/s]parsing log, completed traces ::  32%|███▏      | 340/1050 [00:00<00:00, 1266.45it/s]parsing log, completed traces ::  48%|████▊     | 501/1050 [00:00<00:00, 1390.40it/s]parsing log, completed traces ::  64%|██████▍   | 673/1050 [00:00<00:00, 1504.11it/s]parsing log, completed traces ::  81%|████████  | 850/1050 [00:00<00:00, 1589.01it/s]parsing log, completed traces ::  96%|█████████▋| 1011/1050 [00:00<00:00, 1117.70it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1200.92it/s]
+"
+24,:,1678614124.743,8.687,0,83,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_6_3.lp",data/formulae_1/qc_1_6_3.lp,"iota(""A"",admission_ic)
+support((notchainprecedence,(admission_ic,release_a)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   2%|▏         | 22/1050 [00:00<00:04, 219.00it/s]parsing log, completed traces ::  20%|██        | 213/1050 [00:00<00:00, 1210.08it/s]parsing log, completed traces ::  37%|███▋      | 390/1050 [00:00<00:00, 1463.43it/s]parsing log, completed traces ::  55%|█████▌    | 581/1050 [00:00<00:00, 1638.16it/s]parsing log, completed traces ::  74%|███████▎  | 773/1050 [00:00<00:00, 1734.21it/s]parsing log, completed traces ::  90%|█████████ | 947/1050 [00:00<00:00, 1272.31it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1375.78it/s]
+"
+25,:,1678614128.451,8.315,0,79,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_1_6_4.lp",data/formulae_1/qc_1_6_4.lp,"iota(""A"",release_a)
+support((notprecedence,(release_a,er_sepsis_triage)),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   6%|▋         | 66/1050 [00:00<00:01, 657.29it/s]parsing log, completed traces ::  26%|██▌       | 271/1050 [00:00<00:00, 1474.95it/s]parsing log, completed traces ::  43%|████▎     | 451/1050 [00:00<00:00, 1619.92it/s]parsing log, completed traces ::  59%|█████▊    | 616/1050 [00:00<00:00, 1631.15it/s]parsing log, completed traces ::  76%|███████▌  | 794/1050 [00:00<00:00, 1683.25it/s]parsing log, completed traces ::  92%|█████████▏| 963/1050 [00:00<00:00, 1261.55it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1399.95it/s]
+"
+27,:,1678614129.434,7.550,0,159,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_2_1.lp",data/formulae_1/qc_2_2_1.lp,"iota(""A"",er_registration)
+iota(""B"",release_a)
+support((and,(notchainprecedence,(er_registration,admission_nc)),(notprecedence,(release_a,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:40,  6.53it/s]parsing log, completed traces ::  14%|█▍        | 149/1050 [00:00<00:01, 717.82it/s]parsing log, completed traces ::  30%|██▉       | 310/1050 [00:00<00:00, 1079.46it/s]parsing log, completed traces ::  41%|████      | 431/1050 [00:00<00:00, 886.19it/s] parsing log, completed traces ::  59%|█████▊    | 616/1050 [00:00<00:00, 1166.57it/s]parsing log, completed traces ::  76%|███████▋  | 802/1050 [00:00<00:00, 1370.43it/s]parsing log, completed traces ::  91%|█████████ | 952/1050 [00:00<00:00, 1015.17it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 1033.84it/s]
+"
+28,:,1678614129.773,7.632,0,142,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_2_2.lp",data/formulae_1/qc_2_2_2.lp,"iota(""A"",release_a)
+iota(""B"",er_triage)
+support((and,(notchainprecedence,(release_a,lacticacid)),(precedence,(er_triage,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:50,  9.48it/s]parsing log, completed traces ::  19%|█▉        | 202/1050 [00:00<00:00, 1159.89it/s]parsing log, completed traces ::  36%|███▌      | 375/1050 [00:00<00:00, 1416.89it/s]parsing log, completed traces ::  49%|████▉     | 519/1050 [00:00<00:00, 1013.48it/s]parsing log, completed traces ::  60%|██████    | 634/1050 [00:00<00:00, 862.74it/s] parsing log, completed traces ::  78%|███████▊  | 819/1050 [00:00<00:00, 1105.90it/s]parsing log, completed traces ::  90%|█████████ | 945/1050 [00:01<00:00, 866.14it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 958.09it/s]
+"
+26,:,1678614129.044,9.032,0,175,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_2_0.lp",data/formulae_1/qc_2_2_0.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_sepsis_triage)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(notchainprecedence,(er_sepsis_triage,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:39,  6.56it/s]parsing log, completed traces ::  20%|█▉        | 207/1050 [00:00<00:00, 998.43it/s]parsing log, completed traces ::  36%|███▋      | 383/1050 [00:00<00:00, 1308.94it/s]parsing log, completed traces ::  55%|█████▍    | 573/1050 [00:00<00:00, 1526.11it/s]parsing log, completed traces ::  72%|███████▏  | 757/1050 [00:00<00:00, 1631.87it/s]parsing log, completed traces ::  88%|████████▊ | 928/1050 [00:00<00:00, 1268.14it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1300.27it/s]
+"
+29,:,1678614130.175,8.255,0,161,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_2_3.lp",data/formulae_1/qc_2_2_3.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",iv_liquid)
+support((and,(respondedexistence,(iv_antibiotics,er_sepsis_triage)),(notchainresponse,(iv_liquid,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:49,  9.62it/s]parsing log, completed traces ::  21%|██        | 217/1050 [00:00<00:00, 1251.44it/s]parsing log, completed traces ::  38%|███▊      | 401/1050 [00:00<00:00, 1516.06it/s]parsing log, completed traces ::  56%|█████▌    | 589/1050 [00:00<00:00, 1657.82it/s]parsing log, completed traces ::  75%|███████▍  | 785/1050 [00:00<00:00, 1759.16it/s]parsing log, completed traces ::  92%|█████████▏| 962/1050 [00:00<00:00, 1227.95it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1342.71it/s]
+"
+30,:,1678614130.267,9.281,0,168,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_2_4.lp",data/formulae_1/qc_2_2_4.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_registration)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(choice,(er_registration,er_sepsis_triage))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 83/1050 [00:00<00:01, 828.37it/s]parsing log, completed traces ::  23%|██▎       | 246/1050 [00:00<00:00, 1164.25it/s]parsing log, completed traces ::  34%|███▍      | 361/1050 [00:00<00:00, 894.38it/s] parsing log, completed traces ::  51%|█████     | 532/1050 [00:00<00:00, 1155.26it/s]parsing log, completed traces ::  68%|██████▊   | 715/1050 [00:00<00:00, 1367.40it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 921.23it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1081.96it/s]
+"
+33,:,1678614131.907,8.865,0,142,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_3_2.lp",data/formulae_1/qc_2_3_2.lp,"iota(""A"",release_a)
+iota(""B"",er_triage)
+support((and,(notchainprecedence,(release_a,lacticacid)),(precedence,(er_triage,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   4%|▎         | 39/1050 [00:00<00:02, 387.62it/s]parsing log, completed traces ::  22%|██▏       | 232/1050 [00:00<00:00, 1287.19it/s]parsing log, completed traces ::  34%|███▍      | 361/1050 [00:00<00:00, 1044.64it/s]parsing log, completed traces ::  51%|█████     | 538/1050 [00:00<00:00, 1292.13it/s]parsing log, completed traces ::  66%|██████▌   | 692/1050 [00:00<00:00, 1371.28it/s]parsing log, completed traces ::  79%|███████▉  | 834/1050 [00:00<00:00, 1133.65it/s]parsing log, completed traces ::  91%|█████████ | 956/1050 [00:00<00:00, 833.40it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 1032.57it/s]
+"
+32,:,1678614131.561,10.390,0,159,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_3_1.lp",data/formulae_1/qc_2_3_1.lp,"iota(""A"",er_registration)
+iota(""B"",release_a)
+support((and,(notchainprecedence,(er_registration,admission_nc)),(notprecedence,(release_a,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:46,  9.82it/s]parsing log, completed traces ::  19%|█▉        | 199/1050 [00:00<00:00, 1159.75it/s]parsing log, completed traces ::  34%|███▍      | 357/1050 [00:00<00:00, 1349.59it/s]parsing log, completed traces ::  50%|█████     | 526/1050 [00:00<00:00, 1470.27it/s]parsing log, completed traces ::  64%|██████▍   | 674/1050 [00:00<00:00, 1147.87it/s]parsing log, completed traces ::  76%|███████▌  | 798/1050 [00:00<00:00, 1007.89it/s]parsing log, completed traces ::  86%|████████▋ | 907/1050 [00:01<00:00, 653.20it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 925.52it/s]
+"
+35,:,1678614132.783,10.520,0,168,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_3_4.lp",data/formulae_1/qc_2_3_4.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_registration)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(choice,(er_registration,er_sepsis_triage))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 2/1050 [00:00<00:52, 19.98it/s]parsing log, completed traces ::  20%|█▉        | 205/1050 [00:00<00:00, 1199.19it/s]parsing log, completed traces ::  35%|███▌      | 370/1050 [00:00<00:00, 1401.92it/s]parsing log, completed traces ::  53%|█████▎    | 560/1050 [00:00<00:00, 1592.23it/s]parsing log, completed traces ::  71%|███████   | 747/1050 [00:00<00:00, 1690.95it/s]parsing log, completed traces ::  87%|████████▋ | 917/1050 [00:00<00:00, 1221.18it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1336.97it/s]
+"
+31,:,1678614131.265,13.837,0,175,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_3_0.lp",data/formulae_1/qc_2_3_0.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_sepsis_triage)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(notchainprecedence,(er_sepsis_triage,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:45,  9.95it/s]parsing log, completed traces ::  19%|█▊        | 195/1050 [00:00<00:00, 1136.76it/s]parsing log, completed traces ::  34%|███▍      | 356/1050 [00:00<00:00, 1340.47it/s]parsing log, completed traces ::  47%|████▋     | 490/1050 [00:00<00:00, 1015.43it/s]parsing log, completed traces ::  63%|██████▎   | 665/1050 [00:00<00:00, 1234.11it/s]parsing log, completed traces ::  80%|████████  | 842/1050 [00:00<00:00, 1392.68it/s]parsing log, completed traces ::  94%|█████████▍| 991/1050 [00:01<00:00, 644.66it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 855.66it/s]
+"
+34,:,1678614132.703,13.102,0,161,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_3_3.lp",data/formulae_1/qc_2_3_3.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",iv_liquid)
+support((and,(respondedexistence,(iv_antibiotics,er_sepsis_triage)),(notchainresponse,(iv_liquid,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 2/1050 [00:00<00:52, 19.98it/s]parsing log, completed traces ::  20%|█▉        | 205/1050 [00:00<00:00, 1201.02it/s]parsing log, completed traces ::  35%|███▌      | 369/1050 [00:00<00:00, 1400.70it/s]parsing log, completed traces ::  53%|█████▎    | 560/1050 [00:00<00:00, 1595.47it/s]parsing log, completed traces ::  72%|███████▏  | 751/1050 [00:00<00:00, 1706.40it/s]parsing log, completed traces ::  88%|████████▊ | 922/1050 [00:00<00:00, 1265.71it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1361.39it/s]
+"
+37,:,1678614136.773,11.851,0,159,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_4_1.lp",data/formulae_1/qc_2_4_1.lp,"iota(""A"",er_registration)
+iota(""B"",release_a)
+support((and,(notchainprecedence,(er_registration,admission_nc)),(notprecedence,(release_a,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:55,  9.10it/s]parsing log, completed traces ::  18%|█▊        | 189/1050 [00:00<00:00, 1063.20it/s]parsing log, completed traces ::  33%|███▎      | 349/1050 [00:00<00:00, 1302.22it/s]parsing log, completed traces ::  48%|████▊     | 506/1050 [00:00<00:00, 1405.23it/s]parsing log, completed traces ::  64%|██████▎   | 669/1050 [00:00<00:00, 1485.08it/s]parsing log, completed traces ::  80%|███████▉  | 837/1050 [00:00<00:00, 1550.09it/s]parsing log, completed traces ::  95%|█████████▍| 993/1050 [00:00<00:00, 1052.19it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1179.14it/s]
+"
+38,:,1678614136.992,12.253,0,142,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_4_2.lp",data/formulae_1/qc_2_4_2.lp,"iota(""A"",release_a)
+iota(""B"",er_triage)
+support((and,(notchainprecedence,(release_a,lacticacid)),(precedence,(er_triage,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<03:00,  5.81it/s]parsing log, completed traces ::  17%|█▋        | 174/1050 [00:00<00:01, 787.60it/s]parsing log, completed traces ::  33%|███▎      | 348/1050 [00:00<00:00, 1159.87it/s]parsing log, completed traces ::  48%|████▊     | 509/1050 [00:00<00:00, 1320.18it/s]parsing log, completed traces ::  66%|██████▌   | 689/1050 [00:00<00:00, 1482.04it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1012.36it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1109.23it/s]
+"
+36,:,1678614133.438,18.765,0,175,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_4_0.lp",data/formulae_1/qc_2_4_0.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_sepsis_triage)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(notchainprecedence,(er_sepsis_triage,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:47,  9.77it/s]parsing log, completed traces ::  19%|█▉        | 203/1050 [00:00<00:00, 1174.17it/s]parsing log, completed traces ::  35%|███▌      | 370/1050 [00:00<00:00, 1397.38it/s]parsing log, completed traces ::  53%|█████▎    | 558/1050 [00:00<00:00, 1586.52it/s]parsing log, completed traces ::  71%|███████   | 744/1050 [00:00<00:00, 1684.57it/s]parsing log, completed traces ::  87%|████████▋ | 913/1050 [00:00<00:00, 1201.63it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1321.51it/s]
+"
+43,:,1678614140.779,13.816,0,142,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_5_2.lp",data/formulae_1/qc_2_5_2.lp,"iota(""A"",release_a)
+iota(""B"",er_triage)
+support((and,(notchainprecedence,(release_a,lacticacid)),(precedence,(er_triage,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 82/1050 [00:00<00:01, 818.18it/s]parsing log, completed traces ::  26%|██▌       | 272/1050 [00:00<00:00, 1446.25it/s]parsing log, completed traces ::  42%|████▏     | 441/1050 [00:00<00:00, 1555.59it/s]parsing log, completed traces ::  59%|█████▉    | 620/1050 [00:00<00:00, 1644.24it/s]parsing log, completed traces ::  76%|███████▋  | 801/1050 [00:00<00:00, 1703.77it/s]parsing log, completed traces ::  93%|█████████▎| 972/1050 [00:00<00:00, 1023.98it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1239.90it/s]
+"
+40,:,1678614138.081,17.459,0,168,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_4_4.lp",data/formulae_1/qc_2_4_4.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_registration)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(choice,(er_registration,er_sepsis_triage))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   9%|▉         | 93/1050 [00:00<00:01, 926.53it/s]parsing log, completed traces ::  28%|██▊       | 293/1050 [00:00<00:00, 1555.87it/s]parsing log, completed traces ::  47%|████▋     | 489/1050 [00:00<00:00, 1737.58it/s]parsing log, completed traces ::  65%|██████▍   | 679/1050 [00:00<00:00, 1799.40it/s]parsing log, completed traces ::  83%|████████▎ | 871/1050 [00:00<00:00, 1827.82it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1530.99it/s]
+"
+39,:,1678614137.413,18.543,0,161,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_4_3.lp",data/formulae_1/qc_2_4_3.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",iv_liquid)
+support((and,(respondedexistence,(iv_antibiotics,er_sepsis_triage)),(notchainresponse,(iv_liquid,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   2%|▏         | 25/1050 [00:00<00:04, 249.57it/s]parsing log, completed traces ::  21%|██▏       | 224/1050 [00:00<00:00, 1270.62it/s]parsing log, completed traces ::  38%|███▊      | 399/1050 [00:00<00:00, 1482.96it/s]parsing log, completed traces ::  57%|█████▋    | 596/1050 [00:00<00:00, 1667.21it/s]parsing log, completed traces ::  75%|███████▍  | 785/1050 [00:00<00:00, 1741.11it/s]parsing log, completed traces ::  91%|█████████▏| 960/1050 [00:00<00:00, 1332.68it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1415.36it/s]
+"
+41,:,1678614138.436,19.455,0,175,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_5_0.lp",data/formulae_1/qc_2_5_0.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_sepsis_triage)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(notchainprecedence,(er_sepsis_triage,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   7%|▋         | 69/1050 [00:00<00:01, 686.99it/s]parsing log, completed traces ::  25%|██▍       | 260/1050 [00:00<00:00, 1400.78it/s]parsing log, completed traces ::  41%|████      | 430/1050 [00:00<00:00, 1536.61it/s]parsing log, completed traces ::  59%|█████▉    | 621/1050 [00:00<00:00, 1681.08it/s]parsing log, completed traces ::  76%|███████▋  | 803/1050 [00:00<00:00, 1729.89it/s]parsing log, completed traces ::  93%|█████████▎| 976/1050 [00:00<00:00, 1345.40it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1451.28it/s]
+"
+47,:,1678614145.811,18.575,0,159,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_6_1.lp",data/formulae_1/qc_2_6_1.lp,"iota(""A"",er_registration)
+iota(""B"",release_a)
+support((and,(notchainprecedence,(er_registration,admission_nc)),(notprecedence,(release_a,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 84/1050 [00:00<00:01, 838.15it/s]parsing log, completed traces ::  26%|██▋       | 277/1050 [00:00<00:00, 1469.68it/s]parsing log, completed traces ::  43%|████▎     | 456/1050 [00:00<00:00, 1613.53it/s]parsing log, completed traces ::  61%|██████    | 642/1050 [00:00<00:00, 1709.52it/s]parsing log, completed traces ::  80%|███████▉  | 836/1050 [00:00<00:00, 1791.89it/s]parsing log, completed traces ::  97%|█████████▋| 1016/1050 [00:00<00:00, 1414.60it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1505.75it/s]
+"
+42,:,1678614139.555,24.852,0,159,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_5_1.lp",data/formulae_1/qc_2_5_1.lp,"iota(""A"",er_registration)
+iota(""B"",release_a)
+support((and,(notchainprecedence,(er_registration,admission_nc)),(notprecedence,(release_a,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:57,  8.96it/s]parsing log, completed traces ::  19%|█▉        | 204/1050 [00:00<00:00, 1142.10it/s]parsing log, completed traces ::  36%|███▌      | 379/1050 [00:00<00:00, 1411.58it/s]parsing log, completed traces ::  53%|█████▎    | 553/1050 [00:00<00:00, 1538.44it/s]parsing log, completed traces ::  71%|███████   | 744/1050 [00:00<00:00, 1664.10it/s]parsing log, completed traces ::  87%|████████▋ | 912/1050 [00:00<00:00, 1130.14it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1270.71it/s]
+"
+53,:,1678614155.962,8.937,0,211,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_2_2.lp",data/formulae_1/qc_3_2_2.lp,"iota(""A"",release_a)
+iota(""B"",er_registration)
+iota(""C"",return_er)
+support((and,(notprecedence,(release_a,iv_antibiotics)),(and,(choice,(er_registration,return_er)),(notresponse,(return_er,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:55,  9.06it/s]parsing log, completed traces ::  19%|█▊        | 195/1050 [00:00<00:00, 1097.65it/s]parsing log, completed traces ::  35%|███▍      | 363/1050 [00:00<00:00, 1349.98it/s]parsing log, completed traces ::  52%|█████▏    | 545/1050 [00:00<00:00, 1528.51it/s]parsing log, completed traces ::  69%|██████▉   | 726/1050 [00:00<00:00, 1627.63it/s]parsing log, completed traces ::  85%|████████▍ | 891/1050 [00:00<00:00, 1031.60it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1204.25it/s]
+"
+44,:,1678614141.958,23.463,0,139,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_5_3.lp",data/formulae_1/qc_2_5_3.lp,"iota(""A"",release_c)
+iota(""B"",crp)
+support((and,(respondedexistence,(release_c,er_sepsis_triage)),(notchainresponse,(crp,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   6%|▋         | 68/1050 [00:00<00:01, 679.75it/s]parsing log, completed traces ::  25%|██▍       | 258/1050 [00:00<00:00, 1391.85it/s]parsing log, completed traces ::  41%|████      | 427/1050 [00:00<00:00, 1521.18it/s]parsing log, completed traces ::  58%|█████▊    | 609/1050 [00:00<00:00, 1637.77it/s]parsing log, completed traces ::  76%|███████▌  | 795/1050 [00:00<00:00, 1716.64it/s]parsing log, completed traces ::  92%|█████████▏| 967/1050 [00:00<00:00, 1270.10it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1400.98it/s]
+"
+52,:,1678614155.548,10.424,0,188,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_2_1.lp",data/formulae_1/qc_3_2_1.lp,"iota(""A"",return_er)
+iota(""B"",er_triage)
+iota(""C"",er_triage)
+support((and,(notresponse,(return_er,release_a)),(and,(precedence,(er_triage,release_a)),(choice,(er_triage,iv_liquid)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:10,  8.06it/s]parsing log, completed traces ::  19%|█▉        | 197/1050 [00:00<00:00, 1052.26it/s]parsing log, completed traces ::  33%|███▎      | 351/1050 [00:00<00:00, 1263.14it/s]parsing log, completed traces ::  50%|█████     | 528/1050 [00:00<00:00, 1455.29it/s]parsing log, completed traces ::  66%|██████▋   | 698/1050 [00:00<00:00, 1539.33it/s]parsing log, completed traces ::  83%|████████▎ | 871/1050 [00:00<00:00, 1597.04it/s]parsing log, completed traces ::  98%|█████████▊| 1033/1050 [00:00<00:00, 1051.05it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1168.35it/s]
+"
+48,:,1678614148.631,18.026,0,142,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_6_2.lp",data/formulae_1/qc_2_6_2.lp,"iota(""A"",release_a)
+iota(""B"",er_triage)
+support((and,(notchainprecedence,(release_a,lacticacid)),(precedence,(er_triage,admission_nc))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   9%|▉         | 93/1050 [00:00<00:01, 926.13it/s]parsing log, completed traces ::  28%|██▊       | 292/1050 [00:00<00:00, 1549.14it/s]parsing log, completed traces ::  45%|████▌     | 475/1050 [00:00<00:00, 1676.19it/s]parsing log, completed traces ::  63%|██████▎   | 663/1050 [00:00<00:00, 1755.68it/s]parsing log, completed traces ::  81%|████████  | 853/1050 [00:00<00:00, 1806.74it/s]parsing log, completed traces ::  98%|█████████▊| 1034/1050 [00:00<00:00, 1419.99it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1522.05it/s]
+"
+51,:,1678614154.602,12.996,0,219,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_2_0.lp",data/formulae_1/qc_3_2_0.lp,"iota(""A"",return_er)
+iota(""B"",release_a)
+iota(""C"",er_registration)
+support((and,(choice,(return_er,er_sepsis_triage)),(and,(notprecedence,(release_a,er_sepsis_triage)),(precedence,(er_registration,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:22,  7.39it/s]parsing log, completed traces ::  19%|█▉        | 204/1050 [00:00<00:00, 1045.24it/s]parsing log, completed traces ::  36%|███▋      | 382/1050 [00:00<00:00, 1355.61it/s]parsing log, completed traces ::  53%|█████▎    | 552/1050 [00:00<00:00, 1479.13it/s]parsing log, completed traces ::  70%|███████   | 737/1050 [00:00<00:00, 1607.69it/s]parsing log, completed traces ::  86%|████████▌ | 903/1050 [00:00<00:00, 1043.34it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1191.30it/s]
+"
+45,:,1678614143.311,25.305,0,168,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_5_4.lp",data/formulae_1/qc_2_5_4.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_registration)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(choice,(er_registration,er_sepsis_triage))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:45,  9.90it/s]parsing log, completed traces ::  19%|█▉        | 203/1050 [00:00<00:00, 1186.15it/s]parsing log, completed traces ::  35%|███▌      | 371/1050 [00:00<00:00, 1408.61it/s]parsing log, completed traces ::  53%|█████▎    | 559/1050 [00:00<00:00, 1592.92it/s]parsing log, completed traces ::  70%|███████   | 739/1050 [00:00<00:00, 1657.97it/s]parsing log, completed traces ::  86%|████████▌ | 905/1050 [00:00<00:00, 921.36it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1149.75it/s]
+"
+54,:,1678614157.899,13.884,0,246,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_2_3.lp",data/formulae_1/qc_3_2_3.lp,"iota(""A"",er_registration)
+iota(""B"",er_sepsis_triage)
+iota(""C"",iv_antibiotics)
+support((and,(alternateprecedence,(er_registration,return_er)),(and,(respondedexistence,(er_sepsis_triage,er_registration)),(choice,(iv_antibiotics,er_triage)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:52,  9.30it/s]parsing log, completed traces ::  20%|█▉        | 206/1050 [00:00<00:00, 1172.44it/s]parsing log, completed traces ::  37%|███▋      | 385/1050 [00:00<00:00, 1447.50it/s]parsing log, completed traces ::  54%|█████▎    | 564/1050 [00:00<00:00, 1578.06it/s]parsing log, completed traces ::  72%|███████▏  | 757/1050 [00:00<00:00, 1702.32it/s]parsing log, completed traces ::  88%|████████▊ | 929/1050 [00:00<00:00, 1195.43it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1316.96it/s]
+"
+46,:,1678614145.109,30.009,0,175,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_6_0.lp",data/formulae_1/qc_2_6_0.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_sepsis_triage)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(notchainprecedence,(er_sepsis_triage,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:48,  9.63it/s]parsing log, completed traces ::  20%|█▉        | 208/1050 [00:00<00:00, 1201.33it/s]parsing log, completed traces ::  37%|███▋      | 386/1050 [00:00<00:00, 1457.90it/s]parsing log, completed traces ::  54%|█████▍    | 568/1050 [00:00<00:00, 1597.82it/s]parsing log, completed traces ::  73%|███████▎  | 763/1050 [00:00<00:00, 1722.34it/s]parsing log, completed traces ::  89%|████████▉ | 936/1050 [00:00<00:00, 1204.65it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1328.42it/s]
+"
+55,:,1678614164.394,10.919,0,223,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_2_4.lp",data/formulae_1/qc_3_2_4.lp,"iota(""A"",return_er)
+iota(""B"",admission_nc)
+iota(""C"",release_a)
+support((and,(notchainresponse,(return_er,release_a)),(and,(respondedexistence,(admission_nc,er_registration)),(notresponse,(release_a,iv_antibiotics)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:35,  6.77it/s]parsing log, completed traces ::  14%|█▍        | 151/1050 [00:00<00:01, 733.55it/s]parsing log, completed traces ::  23%|██▎       | 238/1050 [00:00<00:01, 755.52it/s]parsing log, completed traces ::  33%|███▎      | 345/1050 [00:00<00:00, 864.77it/s]parsing log, completed traces ::  45%|████▌     | 474/1050 [00:00<00:00, 1008.51it/s]parsing log, completed traces ::  62%|██████▏   | 656/1050 [00:00<00:00, 1272.83it/s]parsing log, completed traces ::  78%|███████▊  | 815/1050 [00:00<00:00, 1372.58it/s]parsing log, completed traces ::  91%|█████████ | 956/1050 [00:01<00:00, 614.44it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 799.32it/s]
+"
+58,:,1678614165.428,11.976,0,211,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_3_2.lp",data/formulae_1/qc_3_3_2.lp,"iota(""A"",release_a)
+iota(""B"",er_registration)
+iota(""C"",return_er)
+support((and,(notprecedence,(release_a,iv_antibiotics)),(and,(choice,(er_registration,return_er)),(notresponse,(return_er,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:48,  9.71it/s]parsing log, completed traces ::  19%|█▉        | 204/1050 [00:00<00:00, 1181.92it/s]parsing log, completed traces ::  35%|███▌      | 370/1050 [00:00<00:00, 1393.37it/s]parsing log, completed traces ::  52%|█████▏    | 550/1050 [00:00<00:00, 1551.95it/s]parsing log, completed traces ::  70%|███████   | 737/1050 [00:00<00:00, 1660.23it/s]parsing log, completed traces ::  86%|████████▌ | 904/1050 [00:00<00:00, 1191.37it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1315.79it/s]
+"
+49,:,1678614149.251,28.621,0,161,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_6_3.lp",data/formulae_1/qc_2_6_3.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",return_er)
+support((and,(respondedexistence,(iv_antibiotics,er_sepsis_triage)),(notchainresponse,(return_er,return_er))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:53,  9.25it/s]parsing log, completed traces ::  20%|█▉        | 206/1050 [00:00<00:00, 1170.37it/s]parsing log, completed traces ::  36%|███▋      | 383/1050 [00:00<00:00, 1437.47it/s]parsing log, completed traces ::  55%|█████▍    | 575/1050 [00:00<00:00, 1624.71it/s]parsing log, completed traces ::  71%|███████   | 748/1050 [00:00<00:00, 1662.30it/s]parsing log, completed traces ::  87%|████████▋ | 916/1050 [00:00<00:00, 1097.07it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1262.63it/s]
+"
+57,:,1678614164.905,13.164,0,188,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_3_1.lp",data/formulae_1/qc_3_3_1.lp,"iota(""A"",return_er)
+iota(""B"",er_triage)
+iota(""C"",er_triage)
+support((and,(notresponse,(return_er,release_a)),(and,(precedence,(er_triage,release_a)),(choice,(er_triage,iv_liquid)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:23,  7.31it/s]parsing log, completed traces ::  18%|█▊        | 194/1050 [00:00<00:00, 989.13it/s]parsing log, completed traces ::  29%|██▉       | 308/1050 [00:00<00:00, 777.95it/s]parsing log, completed traces ::  46%|████▌     | 480/1050 [00:00<00:00, 1066.90it/s]parsing log, completed traces ::  63%|██████▎   | 657/1050 [00:00<00:00, 1278.57it/s]parsing log, completed traces ::  80%|████████  | 842/1050 [00:00<00:00, 1447.95it/s]parsing log, completed traces ::  95%|█████████▌| 998/1050 [00:00<00:00, 1128.74it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1101.48it/s]
+"
+50,:,1678614152.208,29.321,0,168,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_2_6_4.lp",data/formulae_1/qc_2_6_4.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_registration)
+support((and,(notchainresponse,(iv_antibiotics,er_sepsis_triage)),(choice,(er_registration,er_sepsis_triage))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 88/1050 [00:00<00:01, 876.90it/s]parsing log, completed traces ::  28%|██▊       | 290/1050 [00:00<00:00, 1547.99it/s]parsing log, completed traces ::  46%|████▌     | 482/1050 [00:00<00:00, 1715.56it/s]parsing log, completed traces ::  65%|██████▍   | 681/1050 [00:00<00:00, 1820.63it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1402.75it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1544.12it/s]
+"
+56,:,1678614164.414,20.019,0,219,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_3_0.lp",data/formulae_1/qc_3_3_0.lp,"iota(""A"",return_er)
+iota(""B"",release_a)
+iota(""C"",er_registration)
+support((and,(choice,(return_er,er_sepsis_triage)),(and,(notprecedence,(release_a,er_sepsis_triage)),(precedence,(er_registration,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   2%|▏         | 19/1050 [00:00<00:05, 189.93it/s]parsing log, completed traces ::  22%|██▏       | 227/1050 [00:00<00:00, 1300.73it/s]parsing log, completed traces ::  38%|███▊      | 394/1050 [00:00<00:00, 1463.30it/s]parsing log, completed traces ::  54%|█████▍    | 572/1050 [00:00<00:00, 1583.51it/s]parsing log, completed traces ::  73%|███████▎  | 762/1050 [00:00<00:00, 1696.86it/s]parsing log, completed traces ::  89%|████████▉ | 932/1050 [00:00<00:00, 1122.95it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1287.44it/s]
+"
+60,:,1678614166.664,21.744,0,223,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_3_4.lp",data/formulae_1/qc_3_3_4.lp,"iota(""A"",return_er)
+iota(""B"",admission_nc)
+iota(""C"",release_a)
+support((and,(notchainresponse,(return_er,release_a)),(and,(respondedexistence,(admission_nc,er_registration)),(notresponse,(release_a,iv_antibiotics)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<04:10,  4.19it/s]parsing log, completed traces ::  19%|█▉        | 200/1050 [00:00<00:01, 745.35it/s]parsing log, completed traces ::  34%|███▍      | 356/1050 [00:00<00:00, 1024.02it/s]parsing log, completed traces ::  52%|█████▏    | 542/1050 [00:00<00:00, 1298.82it/s]parsing log, completed traces ::  69%|██████▉   | 729/1050 [00:00<00:00, 1480.46it/s]parsing log, completed traces ::  85%|████████▌ | 895/1050 [00:01<00:00, 798.12it/s] parsing log, completed traces :: 100%|██████████| 1050/1050 [00:01<00:00, 938.46it/s]
+"
+62,:,1678614168.623,23.179,0,188,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_4_1.lp",data/formulae_1/qc_3_4_1.lp,"iota(""A"",release_e)
+iota(""B"",er_triage)
+iota(""C"",er_triage)
+support((and,(notresponse,(release_e,release_a)),(and,(precedence,(er_triage,release_a)),(choice,(er_triage,iv_liquid)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:06,  8.30it/s]parsing log, completed traces ::  18%|█▊        | 192/1050 [00:00<00:00, 1039.42it/s]parsing log, completed traces ::  34%|███▍      | 360/1050 [00:00<00:00, 1317.19it/s]parsing log, completed traces ::  50%|████▉     | 523/1050 [00:00<00:00, 1435.74it/s]parsing log, completed traces ::  66%|██████▋   | 698/1050 [00:00<00:00, 1545.13it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1069.55it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1202.47it/s]
+"
+63,:,1678614171.791,22.147,0,211,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_4_2.lp",data/formulae_1/qc_3_4_2.lp,"iota(""A"",release_a)
+iota(""B"",er_registration)
+iota(""C"",return_er)
+support((and,(notprecedence,(release_a,iv_antibiotics)),(and,(choice,(er_registration,return_er)),(notresponse,(return_er,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   7%|▋         | 71/1050 [00:00<00:01, 706.23it/s]parsing log, completed traces ::  25%|██▌       | 265/1050 [00:00<00:00, 1420.96it/s]parsing log, completed traces ::  41%|████▏     | 435/1050 [00:00<00:00, 1545.41it/s]parsing log, completed traces ::  59%|█████▊    | 615/1050 [00:00<00:00, 1639.43it/s]parsing log, completed traces ::  76%|███████▌  | 793/1050 [00:00<00:00, 1680.17it/s]parsing log, completed traces ::  92%|█████████▏| 961/1050 [00:00<00:00, 1102.70it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1303.22it/s]
+"
+59,:,1678614165.980,28.391,0,246,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_3_3.lp",data/formulae_1/qc_3_3_3.lp,"iota(""A"",er_registration)
+iota(""B"",er_sepsis_triage)
+iota(""C"",iv_antibiotics)
+support((and,(alternateprecedence,(er_registration,return_er)),(and,(respondedexistence,(er_sepsis_triage,er_registration)),(choice,(iv_antibiotics,er_triage)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 79/1050 [00:00<00:01, 782.73it/s]parsing log, completed traces ::  26%|██▌       | 274/1050 [00:00<00:00, 1465.38it/s]parsing log, completed traces ::  43%|████▎     | 453/1050 [00:00<00:00, 1611.11it/s]parsing log, completed traces ::  61%|██████    | 637/1050 [00:00<00:00, 1700.98it/s]parsing log, completed traces ::  79%|███████▉  | 831/1050 [00:00<00:00, 1786.94it/s]parsing log, completed traces ::  96%|█████████▌| 1010/1050 [00:00<00:00, 1379.19it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1480.31it/s]
+"
+61,:,1678614167.603,30.993,0,219,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_4_0.lp",data/formulae_1/qc_3_4_0.lp,"iota(""A"",er_triage)
+iota(""B"",release_a)
+iota(""C"",er_registration)
+support((and,(choice,(er_triage,er_sepsis_triage)),(and,(notprecedence,(release_a,er_sepsis_triage)),(precedence,(er_registration,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   7%|▋         | 72/1050 [00:00<00:01, 719.21it/s]parsing log, completed traces ::  26%|██▋       | 277/1050 [00:00<00:00, 1493.72it/s]parsing log, completed traces ::  45%|████▍     | 468/1050 [00:00<00:00, 1682.59it/s]parsing log, completed traces ::  63%|██████▎   | 657/1050 [00:00<00:00, 1763.60it/s]parsing log, completed traces ::  83%|████████▎ | 871/1050 [00:00<00:00, 1864.92it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1533.13it/s]
+"
+67,:,1678614177.880,28.145,0,188,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_5_1.lp",data/formulae_1/qc_3_5_1.lp,"iota(""A"",release_c)
+iota(""B"",er_triage)
+iota(""C"",er_triage)
+support((and,(notresponse,(release_c,release_a)),(and,(precedence,(er_triage,release_a)),(choice,(er_triage,iv_liquid)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 2/1050 [00:00<00:52, 19.98it/s]parsing log, completed traces ::  20%|██        | 210/1050 [00:00<00:00, 1228.96it/s]parsing log, completed traces ::  37%|███▋      | 387/1050 [00:00<00:00, 1474.22it/s]parsing log, completed traces ::  56%|█████▌    | 588/1050 [00:00<00:00, 1684.22it/s]parsing log, completed traces ::  75%|███████▍  | 785/1050 [00:00<00:00, 1781.76it/s]parsing log, completed traces ::  92%|█████████▏| 964/1050 [00:00<00:00, 1317.50it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1402.02it/s]
+"
+65,:,1678614175.321,32.953,0,233,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_4_4.lp",data/formulae_1/qc_3_4_4.lp,"iota(""A"",er_sepsis_triage)
+iota(""B"",lacticacid)
+iota(""C"",release_a)
+support((and,(notchainresponse,(er_sepsis_triage,release_a)),(and,(respondedexistence,(lacticacid,er_registration)),(notresponse,(release_a,iv_antibiotics)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   3%|▎         | 35/1050 [00:00<00:02, 349.17it/s]parsing log, completed traces ::  22%|██▏       | 233/1050 [00:00<00:00, 1306.04it/s]parsing log, completed traces ::  38%|███▊      | 398/1050 [00:00<00:00, 1462.64it/s]parsing log, completed traces ::  56%|█████▌    | 584/1050 [00:00<00:00, 1617.98it/s]parsing log, completed traces ::  73%|███████▎  | 771/1050 [00:00<00:00, 1707.09it/s]parsing log, completed traces ::  90%|████████▉ | 942/1050 [00:00<00:00, 1261.42it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1379.49it/s]
+"
+68,:,1678614178.077,34.652,0,199,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_5_2.lp",data/formulae_1/qc_3_5_2.lp,"iota(""A"",release_e)
+iota(""B"",er_triage)
+iota(""C"",return_er)
+support((and,(notprecedence,(release_e,iv_antibiotics)),(and,(choice,(er_triage,return_er)),(notresponse,(return_er,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:51,  9.37it/s]parsing log, completed traces ::  20%|█▉        | 206/1050 [00:00<00:00, 1175.51it/s]parsing log, completed traces ::  37%|███▋      | 385/1050 [00:00<00:00, 1448.56it/s]parsing log, completed traces ::  54%|█████▎    | 564/1050 [00:00<00:00, 1581.74it/s]parsing log, completed traces ::  72%|███████▏  | 757/1050 [00:00<00:00, 1704.52it/s]parsing log, completed traces ::  88%|████████▊ | 929/1050 [00:00<00:00, 1182.28it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1310.24it/s]
+"
+64,:,1678614175.125,43.690,0,222,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_4_3.lp",data/formulae_1/qc_3_4_3.lp,"iota(""A"",er_registration)
+iota(""B"",er_triage)
+iota(""C"",release_c)
+support((and,(alternateprecedence,(er_registration,return_er)),(and,(respondedexistence,(er_triage,er_registration)),(choice,(release_c,er_triage)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   2%|▏         | 17/1050 [00:00<00:06, 169.96it/s]parsing log, completed traces ::  22%|██▏       | 232/1050 [00:00<00:00, 1327.38it/s]parsing log, completed traces ::  40%|███▉      | 418/1050 [00:00<00:00, 1567.63it/s]parsing log, completed traces ::  60%|█████▉    | 628/1050 [00:00<00:00, 1768.21it/s]parsing log, completed traces ::  78%|███████▊  | 819/1050 [00:00<00:00, 1804.35it/s]parsing log, completed traces ::  95%|█████████▌| 1000/1050 [00:00<00:00, 1303.04it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1410.84it/s]
+"
+66,:,1678614177.412,43.513,0,219,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_5_0.lp",data/formulae_1/qc_3_5_0.lp,"iota(""A"",release_a)
+iota(""B"",release_a)
+iota(""C"",er_registration)
+support((and,(choice,(release_a,er_sepsis_triage)),(and,(notprecedence,(release_a,er_sepsis_triage)),(precedence,(er_registration,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 79/1050 [00:00<00:01, 783.29it/s]parsing log, completed traces ::  26%|██▌       | 272/1050 [00:00<00:00, 1449.09it/s]parsing log, completed traces ::  43%|████▎     | 448/1050 [00:00<00:00, 1589.70it/s]parsing log, completed traces ::  61%|██████    | 640/1050 [00:00<00:00, 1715.42it/s]parsing log, completed traces ::  78%|███████▊  | 824/1050 [00:00<00:00, 1760.09it/s]parsing log, completed traces ::  95%|█████████▌| 1001/1050 [00:00<00:00, 1396.97it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1488.64it/s]
+"
+73,:,1678614193.944,34.300,0,217,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_6_2.lp",data/formulae_1/qc_3_6_2.lp,"iota(""A"",release_c)
+iota(""B"",er_registration)
+iota(""C"",admission_nc)
+support((and,(notprecedence,(release_c,iv_antibiotics)),(and,(choice,(er_registration,return_er)),(notresponse,(admission_nc,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:02,  8.59it/s]parsing log, completed traces ::  19%|█▉        | 198/1050 [00:00<00:00, 1087.76it/s]parsing log, completed traces ::  35%|███▌      | 371/1050 [00:00<00:00, 1367.74it/s]parsing log, completed traces ::  52%|█████▏    | 545/1050 [00:00<00:00, 1504.97it/s]parsing log, completed traces ::  67%|██████▋   | 699/1050 [00:00<00:00, 1335.54it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1039.57it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1189.17it/s]
+"
+76,:,1678614206.032,23.881,0,294,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_2_0.lp",data/formulae_1/qc_4_2_0.lp,"iota(""A"",admission_nc)
+iota(""B"",er_sepsis_triage)
+iota(""C"",admission_nc)
+iota(""D"",lacticacid)
+support((and,(choice,(admission_nc,er_sepsis_triage)),(and,(notchainresponse,(er_sepsis_triage,return_er)),(and,(notprecedence,(admission_nc,er_registration)),(choice,(lacticacid,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   7%|▋         | 78/1050 [00:00<00:01, 777.31it/s]parsing log, completed traces ::  26%|██▌       | 272/1050 [00:00<00:00, 1448.13it/s]parsing log, completed traces ::  43%|████▎     | 449/1050 [00:00<00:00, 1593.42it/s]parsing log, completed traces ::  60%|██████    | 634/1050 [00:00<00:00, 1692.89it/s]parsing log, completed traces ::  79%|███████▊  | 825/1050 [00:00<00:00, 1768.47it/s]parsing log, completed traces ::  95%|█████████▌| 1002/1050 [00:00<00:00, 1389.00it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1482.11it/s]
+"
+77,:,1678614208.281,23.649,0,275,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_2_1.lp",data/formulae_1/qc_4_2_1.lp,"iota(""A"",release_a)
+iota(""B"",return_er)
+iota(""C"",er_triage)
+iota(""D"",admission_nc)
+support((and,(notprecedence,(release_a,er_triage)),(and,(choice,(return_er,er_sepsis_triage)),(and,(notchainresponse,(er_triage,admission_nc)),(choice,(admission_nc,er_registration))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:09,  8.11it/s]parsing log, completed traces ::  18%|█▊        | 191/1050 [00:00<00:00, 1021.50it/s]parsing log, completed traces ::  34%|███▍      | 358/1050 [00:00<00:00, 1301.23it/s]parsing log, completed traces ::  49%|████▉     | 519/1050 [00:00<00:00, 1413.23it/s]parsing log, completed traces ::  66%|██████▋   | 696/1050 [00:00<00:00, 1532.90it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1058.39it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1188.76it/s]
+"
+78,:,1678614212.735,23.742,0,263,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_2_2.lp",data/formulae_1/qc_4_2_2.lp,"iota(""A"",lacticacid)
+iota(""B"",lacticacid)
+iota(""C"",return_er)
+iota(""D"",crp)
+support((and,(respondedexistence,(lacticacid,er_registration)),(and,(respondedexistence,(lacticacid,er_triage)),(and,(notresponse,(return_er,er_triage)),(choice,(crp,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   6%|▋         | 67/1050 [00:00<00:01, 667.32it/s]parsing log, completed traces ::  25%|██▍       | 262/1050 [00:00<00:00, 1417.37it/s]parsing log, completed traces ::  42%|████▏     | 437/1050 [00:00<00:00, 1568.49it/s]parsing log, completed traces ::  60%|█████▉    | 629/1050 [00:00<00:00, 1704.21it/s]parsing log, completed traces ::  77%|███████▋  | 812/1050 [00:00<00:00, 1748.25it/s]parsing log, completed traces ::  94%|█████████▍| 987/1050 [00:00<00:00, 1357.79it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1461.30it/s]
+"
+72,:,1678614191.809,47.290,0,188,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_6_1.lp",data/formulae_1/qc_3_6_1.lp,"iota(""A"",release_a)
+iota(""B"",er_triage)
+iota(""C"",er_triage)
+support((and,(notresponse,(release_a,release_a)),(and,(precedence,(er_triage,release_a)),(choice,(er_triage,iv_liquid)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 79/1050 [00:00<00:01, 785.07it/s]parsing log, completed traces ::  26%|██▌       | 273/1050 [00:00<00:00, 1461.31it/s]parsing log, completed traces ::  43%|████▎     | 451/1050 [00:00<00:00, 1605.63it/s]parsing log, completed traces ::  61%|██████    | 636/1050 [00:00<00:00, 1701.89it/s]parsing log, completed traces ::  79%|███████▉  | 827/1050 [00:00<00:00, 1776.76it/s]parsing log, completed traces ::  96%|█████████▌| 1005/1050 [00:00<00:00, 1387.92it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1486.41it/s]
+"
+80,:,1678614220.931,21.203,0,285,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_2_4.lp",data/formulae_1/qc_4_2_4.lp,"iota(""A"",er_triage)
+iota(""B"",return_er)
+iota(""C"",release_a)
+iota(""D"",iv_antibiotics)
+support((and,(alternateprecedence,(er_triage,return_er)),(and,(notchainresponse,(return_er,lacticacid)),(and,(notresponse,(release_a,iv_liquid)),(notchainresponse,(iv_antibiotics,return_er))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 79/1050 [00:00<00:01, 785.29it/s]parsing log, completed traces ::  26%|██▌       | 268/1050 [00:00<00:00, 1433.29it/s]parsing log, completed traces ::  42%|████▏     | 441/1050 [00:00<00:00, 1567.98it/s]parsing log, completed traces ::  60%|██████    | 634/1050 [00:00<00:00, 1699.13it/s]parsing log, completed traces ::  78%|███████▊  | 817/1050 [00:00<00:00, 1745.69it/s]parsing log, completed traces ::  94%|█████████▍| 992/1050 [00:00<00:00, 1378.12it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1475.44it/s]
+"
+79,:,1678614218.822,24.208,0,290,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_2_3.lp",data/formulae_1/qc_4_2_3.lp,"iota(""A"",er_sepsis_triage)
+iota(""B"",iv_liquid)
+iota(""C"",admission_nc)
+iota(""D"",er_registration)
+support((and,(choice,(er_sepsis_triage,lacticacid)),(and,(respondedexistence,(iv_liquid,er_registration)),(and,(choice,(admission_nc,er_triage)),(choice,(er_registration,admission_nc))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:05,  8.34it/s]parsing log, completed traces ::  20%|█▉        | 206/1050 [00:00<00:00, 1116.89it/s]parsing log, completed traces ::  35%|███▌      | 369/1050 [00:00<00:00, 1336.98it/s]parsing log, completed traces ::  53%|█████▎    | 559/1050 [00:00<00:00, 1550.58it/s]parsing log, completed traces ::  71%|███████▏  | 749/1050 [00:00<00:00, 1673.76it/s]parsing log, completed traces ::  88%|████████▊ | 920/1050 [00:00<00:00, 1116.08it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1247.91it/s]
+"
+70,:,1678614184.440,76.014,0,229,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_5_4.lp",data/formulae_1/qc_3_5_4.lp,"iota(""A"",admission_ic)
+iota(""B"",admission_nc)
+iota(""C"",return_er)
+support((and,(notchainresponse,(admission_ic,release_a)),(and,(respondedexistence,(admission_nc,er_registration)),(notresponse,(return_er,iv_antibiotics)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   5%|▍         | 48/1050 [00:00<00:02, 478.94it/s]parsing log, completed traces ::  24%|██▎       | 249/1050 [00:00<00:00, 1377.70it/s]parsing log, completed traces ::  40%|███▉      | 419/1050 [00:00<00:00, 1523.65it/s]parsing log, completed traces ::  58%|█████▊    | 607/1050 [00:00<00:00, 1663.46it/s]parsing log, completed traces ::  76%|███████▌  | 798/1050 [00:00<00:00, 1750.26it/s]parsing log, completed traces ::  93%|█████████▎| 974/1050 [00:00<00:00, 1312.16it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1420.89it/s]
+"
+69,:,1678614181.536,80.142,0,222,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_5_3.lp",data/formulae_1/qc_3_5_3.lp,"iota(""A"",er_registration)
+iota(""B"",er_triage)
+iota(""C"",er_triage)
+support((and,(alternateprecedence,(er_registration,return_er)),(and,(respondedexistence,(er_triage,er_registration)),(choice,(er_triage,er_triage)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:07,  8.22it/s]parsing log, completed traces ::  19%|█▉        | 203/1050 [00:00<00:00, 1091.24it/s]parsing log, completed traces ::  36%|███▋      | 381/1050 [00:00<00:00, 1386.01it/s]parsing log, completed traces ::  53%|█████▎    | 556/1050 [00:00<00:00, 1523.15it/s]parsing log, completed traces ::  70%|███████   | 738/1050 [00:00<00:00, 1625.96it/s]parsing log, completed traces ::  86%|████████▌ | 904/1050 [00:00<00:00, 1069.35it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1222.87it/s]
+"
+85,:,1678614239.107,48.167,0,285,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_3_4.lp",data/formulae_1/qc_4_3_4.lp,"iota(""A"",er_triage)
+iota(""B"",release_c)
+iota(""C"",return_er)
+iota(""D"",iv_antibiotics)
+support((and,(alternateprecedence,(er_triage,return_er)),(and,(notchainresponse,(release_c,lacticacid)),(and,(notresponse,(return_er,iv_liquid)),(notchainresponse,(iv_antibiotics,return_er))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   5%|▌         | 55/1050 [00:00<00:01, 548.98it/s]parsing log, completed traces ::  24%|██▎       | 248/1050 [00:00<00:00, 1357.19it/s]parsing log, completed traces ::  39%|███▉      | 414/1050 [00:00<00:00, 1490.97it/s]parsing log, completed traces ::  57%|█████▋    | 602/1050 [00:00<00:00, 1639.94it/s]parsing log, completed traces ::  74%|███████▍  | 778/1050 [00:00<00:00, 1676.81it/s]parsing log, completed traces ::  90%|█████████ | 946/1050 [00:00<00:00, 1302.45it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1413.50it/s]
+"
+71,:,1678614188.416,99.767,0,219,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_6_0.lp",data/formulae_1/qc_3_6_0.lp,"iota(""A"",er_registration)
+iota(""B"",release_e)
+iota(""C"",er_triage)
+support((and,(choice,(er_registration,er_sepsis_triage)),(and,(notprecedence,(release_e,er_sepsis_triage)),(precedence,(er_triage,admission_nc)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   7%|▋         | 78/1050 [00:00<00:01, 778.23it/s]parsing log, completed traces ::  25%|██▌       | 264/1050 [00:00<00:00, 1413.56it/s]parsing log, completed traces ::  41%|████▏     | 435/1050 [00:00<00:00, 1548.54it/s]parsing log, completed traces ::  60%|█████▉    | 628/1050 [00:00<00:00, 1694.60it/s]parsing log, completed traces ::  76%|███████▋  | 802/1050 [00:00<00:00, 1708.64it/s]parsing log, completed traces ::  93%|█████████▎| 973/1050 [00:00<00:00, 1065.27it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1278.01it/s]
+"
+84,:,1678614236.484,60.654,0,298,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_3_3.lp",data/formulae_1/qc_4_3_3.lp,"iota(""A"",er_sepsis_triage)
+iota(""B"",er_sepsis_triage)
+iota(""C"",release_e)
+iota(""D"",er_registration)
+support((and,(choice,(er_sepsis_triage,lacticacid)),(and,(respondedexistence,(er_sepsis_triage,er_registration)),(and,(choice,(release_e,er_triage)),(choice,(er_registration,admission_nc))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:10,  8.05it/s]parsing log, completed traces ::  19%|█▉        | 203/1050 [00:00<00:00, 1081.31it/s]parsing log, completed traces ::  36%|███▋      | 381/1050 [00:00<00:00, 1378.34it/s]parsing log, completed traces ::  53%|█████▎    | 559/1050 [00:00<00:00, 1529.61it/s]parsing log, completed traces ::  71%|███████   | 745/1050 [00:00<00:00, 1645.35it/s]parsing log, completed traces ::  87%|████████▋ | 913/1050 [00:00<00:00, 1114.29it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1241.09it/s]
+"
+82,:,1678614229.921,70.836,0,263,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_3_1.lp",data/formulae_1/qc_4_3_1.lp,"iota(""A"",release_a)
+iota(""B"",crp)
+iota(""C"",release_a)
+iota(""D"",admission_nc)
+support((and,(notprecedence,(release_a,er_triage)),(and,(choice,(crp,er_sepsis_triage)),(and,(notchainresponse,(release_a,admission_nc)),(choice,(admission_nc,er_registration))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   4%|▎         | 39/1050 [00:00<00:02, 389.81it/s]parsing log, completed traces ::  23%|██▎       | 240/1050 [00:00<00:00, 1339.14it/s]parsing log, completed traces ::  39%|███▉      | 411/1050 [00:00<00:00, 1505.10it/s]parsing log, completed traces ::  57%|█████▋    | 602/1050 [00:00<00:00, 1663.85it/s]parsing log, completed traces ::  74%|███████▍  | 777/1050 [00:00<00:00, 1693.79it/s]parsing log, completed traces ::  90%|█████████ | 947/1050 [00:00<00:00, 1260.04it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1282.12it/s]
+"
+81,:,1678614228.252,74.365,0,288,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_3_0.lp",data/formulae_1/qc_4_3_0.lp,"iota(""A"",admission_nc)
+iota(""B"",er_sepsis_triage)
+iota(""C"",return_er)
+iota(""D"",lacticacid)
+support((and,(choice,(admission_nc,er_sepsis_triage)),(and,(notchainresponse,(er_sepsis_triage,return_er)),(and,(notprecedence,(return_er,er_registration)),(choice,(lacticacid,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:03,  8.48it/s]parsing log, completed traces ::  17%|█▋        | 182/1050 [00:00<00:00, 994.60it/s]parsing log, completed traces ::  33%|███▎      | 342/1050 [00:00<00:00, 1251.32it/s]parsing log, completed traces ::  48%|████▊     | 501/1050 [00:00<00:00, 1375.19it/s]parsing log, completed traces ::  64%|██████▍   | 672/1050 [00:00<00:00, 1493.23it/s]parsing log, completed traces ::  80%|████████  | 844/1050 [00:00<00:00, 1567.34it/s]parsing log, completed traces ::  96%|█████████▌| 1003/1050 [00:00<00:00, 1074.79it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1177.03it/s]
+"
+83,:,1678614231.937,74.059,0,277,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_3_2.lp",data/formulae_1/qc_4_3_2.lp,"iota(""A"",admission_nc)
+iota(""B"",release_e)
+iota(""C"",release_d)
+iota(""D"",release_b)
+support((and,(respondedexistence,(admission_nc,er_registration)),(and,(respondedexistence,(release_e,er_triage)),(and,(notresponse,(release_d,er_triage)),(choice,(release_b,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 4/1050 [00:00<00:26, 39.95it/s]parsing log, completed traces ::  16%|█▋        | 173/1050 [00:00<00:00, 1007.56it/s]parsing log, completed traces ::  29%|██▉       | 307/1050 [00:00<00:00, 1158.11it/s]parsing log, completed traces ::  46%|████▌     | 480/1050 [00:00<00:00, 1377.33it/s]parsing log, completed traces ::  63%|██████▎   | 666/1050 [00:00<00:00, 1548.92it/s]parsing log, completed traces ::  83%|████████▎ | 869/1050 [00:00<00:00, 1710.99it/s]parsing log, completed traces ::  99%|█████████▉| 1041/1050 [00:00<00:00, 1118.65it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1207.18it/s]
+"
+74,:,1678614194.378,139.668,0,210,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_6_3.lp",data/formulae_1/qc_3_6_3.lp,"iota(""A"",er_triage)
+iota(""B"",iv_liquid)
+iota(""C"",release_a)
+support((and,(alternateprecedence,(er_triage,return_er)),(and,(respondedexistence,(iv_liquid,er_registration)),(choice,(release_a,er_triage)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<01:59,  8.81it/s]parsing log, completed traces ::  18%|█▊        | 191/1050 [00:00<00:00, 1060.24it/s]parsing log, completed traces ::  35%|███▌      | 370/1050 [00:00<00:00, 1377.77it/s]parsing log, completed traces ::  53%|█████▎    | 560/1050 [00:00<00:00, 1573.28it/s]parsing log, completed traces ::  72%|███████▏  | 751/1050 [00:00<00:00, 1684.29it/s]parsing log, completed traces ::  88%|████████▊ | 922/1050 [00:00<00:00, 1168.45it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1283.67it/s]
+"
+75,:,1678614198.602,141.799,0,223,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_3_6_4.lp",data/formulae_1/qc_3_6_4.lp,"iota(""A"",release_a)
+iota(""B"",admission_nc)
+iota(""C"",return_er)
+support((and,(notchainresponse,(release_a,release_a)),(and,(respondedexistence,(admission_nc,er_registration)),(notresponse,(return_er,iv_antibiotics)))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   2%|▏         | 20/1050 [00:00<00:05, 199.61it/s]parsing log, completed traces ::  21%|██        | 217/1050 [00:00<00:00, 1233.36it/s]parsing log, completed traces ::  38%|███▊      | 394/1050 [00:00<00:00, 1477.47it/s]parsing log, completed traces ::  54%|█████▍    | 572/1050 [00:00<00:00, 1593.98it/s]parsing log, completed traces ::  72%|███████▏  | 755/1050 [00:00<00:00, 1677.56it/s]parsing log, completed traces ::  88%|████████▊ | 923/1050 [00:00<00:00, 1219.98it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1346.02it/s]
+"
+90,:,1678614287.282,63.244,0,285,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_4_4.lp",data/formulae_1/qc_4_4_4.lp,"iota(""A"",er_triage)
+iota(""B"",return_er)
+iota(""C"",release_a)
+iota(""D"",iv_antibiotics)
+support((and,(alternateprecedence,(er_triage,return_er)),(and,(notchainresponse,(return_er,lacticacid)),(and,(notresponse,(release_a,iv_liquid)),(notchainresponse,(iv_antibiotics,return_er))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:28,  7.07it/s]parsing log, completed traces ::  19%|█▉        | 200/1050 [00:00<00:00, 999.92it/s]parsing log, completed traces ::  36%|███▌      | 375/1050 [00:00<00:00, 1308.58it/s]parsing log, completed traces ::  51%|█████▏    | 539/1050 [00:00<00:00, 1431.53it/s]parsing log, completed traces ::  69%|██████▉   | 726/1050 [00:00<00:00, 1583.45it/s]parsing log, completed traces ::  85%|████████▍ | 890/1050 [00:00<00:00, 1013.03it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1164.93it/s]
+"
+87,:,1678614243.043,169.016,0,281,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_4_1.lp",data/formulae_1/qc_4_4_1.lp,"iota(""A"",admission_ic)
+iota(""B"",return_er)
+iota(""C"",release_a)
+iota(""D"",admission_nc)
+support((and,(notprecedence,(admission_ic,er_triage)),(and,(choice,(return_er,er_sepsis_triage)),(and,(notchainresponse,(release_a,admission_nc)),(choice,(admission_nc,er_registration))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   6%|▌         | 64/1050 [00:00<00:01, 637.88it/s]parsing log, completed traces ::  25%|██▍       | 261/1050 [00:00<00:00, 1416.82it/s]parsing log, completed traces ::  42%|████▏     | 437/1050 [00:00<00:00, 1572.33it/s]parsing log, completed traces ::  59%|█████▉    | 620/1050 [00:00<00:00, 1665.49it/s]parsing log, completed traces ::  77%|███████▋  | 812/1050 [00:00<00:00, 1756.08it/s]parsing log, completed traces ::  94%|█████████▍| 988/1050 [00:00<00:00, 1345.00it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1450.97it/s]
+"
+89,:,1678614261.685,174.531,0,284,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_4_3.lp",data/formulae_1/qc_4_4_3.lp,"iota(""A"",er_sepsis_triage)
+iota(""B"",er_registration)
+iota(""C"",crp)
+iota(""D"",er_registration)
+support((and,(choice,(er_sepsis_triage,lacticacid)),(and,(respondedexistence,(er_registration,er_registration)),(and,(choice,(crp,er_triage)),(choice,(er_registration,admission_nc))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   4%|▎         | 39/1050 [00:00<00:02, 387.49it/s]parsing log, completed traces ::  21%|██        | 217/1050 [00:00<00:00, 1199.46it/s]parsing log, completed traces ::  36%|███▌      | 375/1050 [00:00<00:00, 1370.27it/s]parsing log, completed traces ::  52%|█████▏    | 550/1050 [00:00<00:00, 1517.47it/s]parsing log, completed traces ::  68%|██████▊   | 716/1050 [00:00<00:00, 1567.15it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1207.72it/s]parsing log, completed traces :: 100%|█████████▉| 1049/1050 [00:00<00:00, 1348.19it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1323.11it/s]
+"
+86,:,1678614242.141,208.332,0,288,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_4_0.lp",data/formulae_1/qc_4_4_0.lp,"iota(""A"",admission_nc)
+iota(""B"",er_sepsis_triage)
+iota(""C"",release_c)
+iota(""D"",lacticacid)
+support((and,(choice,(admission_nc,er_sepsis_triage)),(and,(notchainresponse,(er_sepsis_triage,return_er)),(and,(notprecedence,(release_c,er_registration)),(choice,(lacticacid,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:07,  8.25it/s]parsing log, completed traces ::  18%|█▊        | 192/1050 [00:00<00:00, 1035.53it/s]parsing log, completed traces ::  34%|███▍      | 356/1050 [00:00<00:00, 1298.40it/s]parsing log, completed traces ::  51%|█████     | 531/1050 [00:00<00:00, 1471.17it/s]parsing log, completed traces ::  69%|██████▉   | 726/1050 [00:00<00:00, 1640.09it/s]parsing log, completed traces ::  85%|████████▌ | 893/1050 [00:00<00:00, 1063.53it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1212.92it/s]
+"
+88,:,1678614260.461,213.048,0,285,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_4_2.lp",data/formulae_1/qc_4_4_2.lp,"iota(""A"",lacticacid)
+iota(""B"",release_b)
+iota(""C"",release_c)
+iota(""D"",er_registration)
+support((and,(respondedexistence,(lacticacid,er_registration)),(and,(respondedexistence,(release_b,er_triage)),(and,(notresponse,(release_c,er_triage)),(choice,(er_registration,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   5%|▍         | 51/1050 [00:00<00:01, 509.95it/s]parsing log, completed traces ::  24%|██▎       | 248/1050 [00:00<00:00, 1367.40it/s]parsing log, completed traces ::  40%|███▉      | 417/1050 [00:00<00:00, 1514.00it/s]parsing log, completed traces ::  57%|█████▋    | 602/1050 [00:00<00:00, 1644.60it/s]parsing log, completed traces ::  75%|███████▌  | 790/1050 [00:00<00:00, 1729.23it/s]parsing log, completed traces ::  92%|█████████▏| 963/1050 [00:00<00:00, 1323.55it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1423.73it/s]
+"
+95,:,1678614306.005,302.412,0,285,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_5_4.lp",data/formulae_1/qc_4_5_4.lp,"iota(""A"",er_triage)
+iota(""B"",return_er)
+iota(""C"",iv_liquid)
+iota(""D"",iv_antibiotics)
+support((and,(alternateprecedence,(er_triage,return_er)),(and,(notchainresponse,(return_er,lacticacid)),(and,(notresponse,(iv_liquid,iv_liquid)),(notchainresponse,(iv_antibiotics,return_er))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   4%|▍         | 40/1050 [00:00<00:02, 397.96it/s]parsing log, completed traces ::  23%|██▎       | 245/1050 [00:00<00:00, 1365.18it/s]parsing log, completed traces ::  40%|███▉      | 417/1050 [00:00<00:00, 1525.09it/s]parsing log, completed traces ::  58%|█████▊    | 604/1050 [00:00<00:00, 1660.45it/s]parsing log, completed traces ::  76%|███████▌  | 795/1050 [00:00<00:00, 1748.37it/s]parsing log, completed traces ::  92%|█████████▏| 970/1050 [00:00<00:00, 1313.15it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1416.25it/s]
+"
+94,:,1678614302.624,364.399,0,294,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_5_3.lp",data/formulae_1/qc_4_5_3.lp,"iota(""A"",er_sepsis_triage)
+iota(""B"",iv_liquid)
+iota(""C"",iv_antibiotics)
+iota(""D"",er_registration)
+support((and,(choice,(er_sepsis_triage,lacticacid)),(and,(respondedexistence,(iv_liquid,er_registration)),(and,(choice,(iv_antibiotics,er_triage)),(choice,(er_registration,admission_nc))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 79/1050 [00:00<00:01, 785.46it/s]parsing log, completed traces ::  26%|██▌       | 271/1050 [00:00<00:00, 1448.60it/s]parsing log, completed traces ::  42%|████▏     | 443/1050 [00:00<00:00, 1571.73it/s]parsing log, completed traces ::  60%|██████    | 634/1050 [00:00<00:00, 1696.33it/s]parsing log, completed traces ::  78%|███████▊  | 817/1050 [00:00<00:00, 1742.38it/s]parsing log, completed traces ::  94%|█████████▍| 992/1050 [00:00<00:00, 1373.11it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1473.63it/s]
+"
+93,:,1678614300.765,476.743,0,283,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_5_2.lp",data/formulae_1/qc_4_5_2.lp,"iota(""A"",release_a)
+iota(""B"",admission_nc)
+iota(""C"",admission_ic)
+iota(""D"",return_er)
+support((and,(respondedexistence,(release_a,er_registration)),(and,(respondedexistence,(admission_nc,er_triage)),(and,(notresponse,(admission_ic,er_triage)),(choice,(return_er,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 82/1050 [00:00<00:01, 819.93it/s]parsing log, completed traces ::  26%|██▌       | 275/1050 [00:00<00:00, 1469.59it/s]parsing log, completed traces ::  43%|████▎     | 451/1050 [00:00<00:00, 1600.31it/s]parsing log, completed traces ::  62%|██████▏   | 646/1050 [00:00<00:00, 1737.62it/s]parsing log, completed traces ::  79%|███████▉  | 831/1050 [00:00<00:00, 1775.53it/s]parsing log, completed traces ::  96%|█████████▌| 1009/1050 [00:00<00:00, 1039.89it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1258.93it/s]
+"
+92,:,1678614297.144,488.851,0,275,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_5_1.lp",data/formulae_1/qc_4_5_1.lp,"iota(""A"",release_c)
+iota(""B"",return_er)
+iota(""C"",release_c)
+iota(""D"",admission_nc)
+support((and,(notprecedence,(release_c,er_triage)),(and,(choice,(return_er,er_sepsis_triage)),(and,(notchainresponse,(release_c,admission_nc)),(choice,(admission_nc,er_registration))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:11,  7.97it/s]parsing log, completed traces ::  19%|█▉        | 204/1050 [00:00<00:00, 1084.39it/s]parsing log, completed traces ::  36%|███▋      | 382/1050 [00:00<00:00, 1384.54it/s]parsing log, completed traces ::  53%|█████▎    | 557/1050 [00:00<00:00, 1523.24it/s]parsing log, completed traces ::  71%|███████   | 745/1050 [00:00<00:00, 1647.63it/s]parsing log, completed traces ::  87%|████████▋ | 914/1050 [00:00<00:00, 1111.34it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1242.98it/s]
+"
+91,:,1678614288.198,504.901,0,304,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_5_0.lp",data/formulae_1/qc_4_5_0.lp,"iota(""A"",return_er)
+iota(""B"",er_sepsis_triage)
+iota(""C"",er_registration)
+iota(""D"",er_registration)
+support((and,(choice,(return_er,er_sepsis_triage)),(and,(notchainresponse,(er_sepsis_triage,return_er)),(and,(notprecedence,(er_registration,er_registration)),(choice,(er_registration,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   1%|          | 9/1050 [00:00<00:11, 89.88it/s]parsing log, completed traces ::  20%|██        | 212/1050 [00:00<00:00, 1228.78it/s]parsing log, completed traces ::  37%|███▋      | 388/1050 [00:00<00:00, 1470.58it/s]parsing log, completed traces ::  54%|█████▍    | 566/1050 [00:00<00:00, 1591.95it/s]parsing log, completed traces ::  72%|███████▏  | 757/1050 [00:00<00:00, 1704.68it/s]parsing log, completed traces ::  88%|████████▊ | 928/1050 [00:00<00:00, 1222.10it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1345.60it/s]
+"
+100,:,1678614436.223,370.343,0,285,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_6_4.lp",data/formulae_1/qc_4_6_4.lp,"iota(""A"",er_triage)
+iota(""B"",release_a)
+iota(""C"",iv_liquid)
+iota(""D"",iv_antibiotics)
+support((and,(alternateprecedence,(er_triage,return_er)),(and,(notchainresponse,(release_a,lacticacid)),(and,(notresponse,(iv_liquid,iv_liquid)),(notchainresponse,(iv_antibiotics,return_er))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   7%|▋         | 78/1050 [00:00<00:01, 778.89it/s]parsing log, completed traces ::  25%|██▍       | 258/1050 [00:00<00:00, 1375.08it/s]parsing log, completed traces ::  41%|████      | 433/1050 [00:00<00:00, 1538.59it/s]parsing log, completed traces ::  60%|█████▉    | 629/1050 [00:00<00:00, 1702.75it/s]parsing log, completed traces ::  76%|███████▋  | 802/1050 [00:00<00:00, 1711.24it/s]parsing log, completed traces ::  93%|█████████▎| 974/1050 [00:00<00:00, 1132.08it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1324.67it/s]
+"
+99,:,1678614412.066,724.463,0,272,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_6_3.lp",data/formulae_1/qc_4_6_3.lp,"iota(""A"",er_sepsis_triage)
+iota(""B"",return_er)
+iota(""C"",crp)
+iota(""D"",er_registration)
+support((and,(choice,(er_sepsis_triage,lacticacid)),(and,(respondedexistence,(return_er,er_registration)),(and,(choice,(crp,er_triage)),(choice,(er_registration,admission_nc))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:05,  8.39it/s]parsing log, completed traces ::  19%|█▉        | 203/1050 [00:00<00:00, 1100.49it/s]parsing log, completed traces ::  36%|███▌      | 380/1050 [00:00<00:00, 1392.58it/s]parsing log, completed traces ::  53%|█████▎    | 559/1050 [00:00<00:00, 1543.59it/s]parsing log, completed traces ::  71%|███████   | 744/1050 [00:00<00:00, 1651.67it/s]parsing log, completed traces ::  87%|████████▋ | 912/1050 [00:00<00:00, 1142.32it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1268.00it/s]
+"
+98,:,1678614350.534,857.702,0,295,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_6_2.lp",data/formulae_1/qc_4_6_2.lp,"iota(""A"",iv_antibiotics)
+iota(""B"",er_sepsis_triage)
+iota(""C"",er_triage)
+iota(""D"",release_e)
+support((and,(respondedexistence,(iv_antibiotics,er_registration)),(and,(respondedexistence,(er_sepsis_triage,er_triage)),(and,(notresponse,(er_triage,er_triage)),(choice,(release_e,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   0%|          | 1/1050 [00:00<02:26,  7.18it/s]parsing log, completed traces ::  18%|█▊        | 193/1050 [00:00<00:00, 974.64it/s]parsing log, completed traces ::  34%|███▍      | 362/1050 [00:00<00:00, 1273.47it/s]parsing log, completed traces ::  50%|████▉     | 520/1050 [00:00<00:00, 1386.84it/s]parsing log, completed traces ::  66%|██████▋   | 696/1050 [00:00<00:00, 1515.78it/s]parsing log, completed traces ::  83%|████████▎ | 876/1050 [00:00<00:00, 1015.20it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1149.66it/s]
+"
+97,:,1678614340.408,898.947,0,263,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_6_1.lp",data/formulae_1/qc_4_6_1.lp,"iota(""A"",return_er)
+iota(""B"",admission_ic)
+iota(""C"",release_e)
+iota(""D"",crp)
+support((and,(notprecedence,(return_er,er_triage)),(and,(choice,(admission_ic,er_sepsis_triage)),(and,(notchainresponse,(release_e,admission_nc)),(choice,(crp,er_registration))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 80/1050 [00:00<00:01, 798.71it/s]parsing log, completed traces ::  26%|██▌       | 273/1050 [00:00<00:00, 1461.93it/s]parsing log, completed traces ::  43%|████▎     | 451/1050 [00:00<00:00, 1604.35it/s]parsing log, completed traces ::  61%|██████    | 643/1050 [00:00<00:00, 1728.47it/s]parsing log, completed traces ::  79%|███████▊  | 826/1050 [00:00<00:00, 1764.63it/s]parsing log, completed traces ::  96%|█████████▌| 1003/1050 [00:00<00:00, 1390.66it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1491.21it/s]
+"
+96,:,1678614334.054,932.762,0,290,0,0,"python3 qc.py data/sepsis.xes data/formulae_1/qc_4_6_0.lp",data/formulae_1/qc_4_6_0.lp,"iota(""A"",admission_ic)
+iota(""B"",admission_ic)
+iota(""C"",er_registration)
+iota(""D"",release_d)
+support((and,(choice,(admission_ic,er_sepsis_triage)),(and,(notchainresponse,(admission_ic,return_er)),(and,(notprecedence,(er_registration,er_registration)),(choice,(release_d,er_triage))))),1050)
+","parsing log, completed traces ::   0%|          | 0/1050 [00:00<?, ?it/s]parsing log, completed traces ::   8%|▊         | 79/1050 [00:00<00:01, 781.43it/s]parsing log, completed traces ::  26%|██▌       | 272/1050 [00:00<00:00, 1452.81it/s]parsing log, completed traces ::  43%|████▎     | 449/1050 [00:00<00:00, 1597.08it/s]parsing log, completed traces ::  61%|██████    | 641/1050 [00:00<00:00, 1723.83it/s]parsing log, completed traces ::  79%|███████▊  | 825/1050 [00:00<00:00, 1759.35it/s]parsing log, completed traces ::  95%|█████████▌| 1001/1050 [00:00<00:00, 1390.00it/s]parsing log, completed traces :: 100%|██████████| 1050/1050 [00:00<00:00, 1485.52it/s]
+"

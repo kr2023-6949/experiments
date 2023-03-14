@@ -1,0 +1,3 @@
+[submodule "declare4py"]
+	path = declare4py
+	url = https://github.com/francxx96/declare4py

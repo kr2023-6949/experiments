@@ -1,0 +1,15 @@
+and_op: "(and," expression "," expression ")"
+or_op: "(or," expression "," expression ")"
+not_op: "(not_," expression ")"
+leaf_op: "(" TEMPLATE_NAME "," "(" ACTIVITY_NAME "," ")" ")"
+    | "(" TEMPLATE_NAME "," "(" ACTIVITY_NAME ("," ACTIVITY_NAME)* ")" ")"
+TEMPLATE_NAME: /[a-z_]+/
+ACTIVITY_NAME: /[a-z_]+/
+
+expression: and_op
+    | or_op
+    | not_op
+    | leaf_op
+
+%import common.WS
+%ignore WS

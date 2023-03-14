@@ -1,0 +1,20 @@
+VARIABLE_IDENTIFIER: /[A-Z]/
+ACTIVITY_CONSTANT: /[a-z_\s0-9]+/
+TEMPLATE_CONSTANT: /[a-z_\s0-9]+/
+BINARY_OP: "|" | "&" | "->" | "<->" | "^"
+UNARY_OP: "~"
+
+ACTIVITY_VARIABLE: VARIABLE_IDENTIFIER
+TEMPLATE_VARIABLE: VARIABLE_IDENTIFIER
+activity_term_list: ((ACTIVITY_CONSTANT | ACTIVITY_VARIABLE) ",")* (ACTIVITY_CONSTANT | ACTIVITY_VARIABLE)
+constraint_term: (TEMPLATE_CONSTANT | TEMPLATE_VARIABLE) "(" activity_term_list ")"
+
+expression: constraint_term | binary_expression | unary_expression | wrap_expression
+binary_expression: expression BINARY_OP expression
+unary_expression: UNARY_OP expression
+wrap_expression: "(" expression ")"
+
+formula: expression
+
+%import common.WS
+%ignore WS

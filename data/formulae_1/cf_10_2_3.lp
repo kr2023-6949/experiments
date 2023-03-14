@@ -1,0 +1,10 @@
+root((or,(or,(notresponse,(return_er,er_sepsis_triage,)),(respondedexistence,(crp,er_triage,))),(or,(notchainprecedence,(iv_antibiotics,return_er,)),(choice,(return_er,er_triage,))))).
+root((or,(or,(respondedexistence,(leucocytes,er_registration,)),(notchainprecedence,(er_triage,return_er,))),(and,(choice,(iv_liquid,er_registration,)),(notresponse,(return_er,release_a,))))).
+root((and,(and,(respondedexistence,(iv_liquid,iv_antibiotics,)),(notprecedence,(return_er,er_registration,))),(and,(notresponse,(return_er,er_triage,)),(respondedexistence,(iv_antibiotics,er_triage,))))).
+root((and,(and,(notchainresponse,(er_registration,return_er,)),(notprecedence,(admission_nc,er_registration,))),(and,(notchainresponse,(er_registration,iv_antibiotics,)),(respondedexistence,(lacticacid,leucocytes,))))).
+root((or,(and,(exactly1,(er_registration,)),(notprecedence,(release_a,iv_liquid,))),(or,(notchainresponse,(iv_liquid,return_er,)),(notchainprecedence,(return_er,lacticacid,))))).
+root((or,(or,(notchainprecedence,(return_er,iv_liquid,)),(notchainprecedence,(er_registration,admission_nc,))),(or,(notprecedence,(release_a,er_triage,)),(choice,(leucocytes,er_sepsis_triage,))))).
+root((or,(or,(notchainresponse,(er_registration,release_a,)),(choice,(release_a,er_registration,))),(and,(notchainprecedence,(er_sepsis_triage,release_a,)),(notchainresponse,(release_a,admission_nc,))))).
+root((or,(or,(precedence,(er_registration,release_a,)),(choice,(er_triage,lacticacid,))),(or,(choice,(er_registration,release_a,)),(respondedexistence,(admission_nc,er_registration,))))).
+root((or,(and,(notresponse,(return_er,admission_nc,)),(respondedexistence,(iv_antibiotics,crp,))),(or,(respondedexistence,(er_sepsis_triage,er_registration,)),(notchainprecedence,(return_er,er_registration,))))).
+root((or,(or,(respondedexistence,(admission_nc,er_triage,)),(choice,(iv_liquid,er_triage,))),(and,(choice,(er_triage,return_er,)),(choice,(er_triage,release_a,))))).
