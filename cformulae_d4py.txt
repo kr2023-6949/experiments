@@ -1,0 +1,29 @@
+Number of constraints in the model accepted by both Declare4Py and MINERful/RuM: 73 out of 73
+Computing conformance checking ...
+Elapsed time for D4Py conformance checking: 2.702s [parsing: 0.656]. Model built in 0.001s.
+Elapsed time for Constraint Formulae conformance checking: 1.506s. Formula built in 0.000s.
+===
+Number of constraints in the model accepted by both Declare4Py and MINERful/RuM: 73 out of 73
+Computing conformance checking ...
+Elapsed time for D4Py conformance checking: 2.720s [parsing: 0.658]. Model built in 0.001s.
+Elapsed time for Constraint Formulae conformance checking: 1.490s. Formula built in 0.000s.
+===
+Number of constraints in the model accepted by both Declare4Py and MINERful/RuM: 73 out of 73
+Computing conformance checking ...
+Elapsed time for D4Py conformance checking: 2.728s [parsing: 0.671]. Model built in 0.001s.
+Elapsed time for Constraint Formulae conformance checking: 1.487s. Formula built in 0.000s.
+===
+Number of constraints in the model accepted by both Declare4Py and MINERful/RuM: 73 out of 73
+Computing conformance checking ...
+Elapsed time for D4Py conformance checking: 2.709s [parsing: 0.658]. Model built in 0.001s.
+Elapsed time for Constraint Formulae conformance checking: 1.508s. Formula built in 0.000s.
+===
+Number of constraints in the model accepted by both Declare4Py and MINERful/RuM: 73 out of 73
+Computing conformance checking ...
+Elapsed time for D4Py conformance checking: 2.679s [parsing: 0.649]. Model built in 0.001s.
+Elapsed time for Constraint Formulae conformance checking: 1.477s. Formula built in 0.000s.
+===
+Number of constraints in the model accepted by both Declare4Py and MINERful/RuM: 73 out of 73
+Computing conformance checking ...
+Elapsed time for D4Py conformance checking: 2.689s [parsing: 0.649]. Model built in 0.001s.
+Elapsed time for Constraint Formulae conformance checking: 1.476s. Formula built in 0.000s.

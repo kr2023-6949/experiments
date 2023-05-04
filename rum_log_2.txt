@@ -1,0 +1,206 @@
+2023-05-04 19:07:21,571 DEBUG   [main] theFirst.RumLauncher - Starting RuM launcher
+2023-05-04 19:07:21,808 DEBUG   [JavaFX Application Thread] theFirst.Rum - Starting RuM
+2023-05-04 19:07:22,313 DEBUG   [JavaFX Application Thread] controller.common.NavigationSidebarController - Navigation sidebar initialized
+2023-05-04 19:07:22,316 DEBUG   [JavaFX Application Thread] controller.common.RootLayoutController - Navigating to page: START
+2023-05-04 19:07:22,360 DEBUG   [JavaFX Application Thread] controller.common.StartPageController - Start page initialized
+2023-05-04 19:07:22,360 DEBUG   [JavaFX Application Thread] controller.common.RootLayoutController - Loaded page: START
+2023-05-04 19:07:22,361 INFO    [JavaFX Application Thread] controller.common.RootLayoutController - Navigated to page: START
+2023-05-04 19:07:22,362 DEBUG   [JavaFX Application Thread] controller.common.RootLayoutController - Root layout initialized
+2023-05-04 19:07:22,362 DEBUG   [JavaFX Application Thread] theFirst.Rum - Root fxml loaded
+2023-05-04 19:07:22,367 DEBUG   [JavaFX Application Thread] theFirst.Rum - Main css loaded
+2023-05-04 19:07:22,589 DEBUG   [JavaFX Application Thread] theFirst.Rum - Primary stage ready and showing
+2023-05-04 19:07:22,589 INFO    [JavaFX Application Thread] theFirst.Rum - RuM started
+2023-05-04 19:07:26,748 DEBUG   [JavaFX Application Thread] controller.common.RootLayoutController - Navigating to page: CONFORMANCE
+2023-05-04 19:07:26,761 DEBUG   [JavaFX Application Thread] controller.conformance.ConformancePageController - Conformance page initialized
+2023-05-04 19:07:26,761 DEBUG   [JavaFX Application Thread] controller.common.RootLayoutController - Loaded page: CONFORMANCE
+2023-05-04 19:07:26,763 INFO    [JavaFX Application Thread] controller.common.RootLayoutController - Navigated to page: CONFORMANCE
+2023-05-04 19:07:26,764 DEBUG   [JavaFX Application Thread] controller.common.NavigationSidebarController - Navigation sidebar highlight updated for page: CONFORMANCE
+2023-05-04 19:07:35,025 INFO    [JavaFX Application Thread] controller.common.InventorySavedElementController - File selected: /home/antonio/experiments/author_response_data/sepsis.decl
+2023-05-04 19:07:36,339 INFO    [JavaFX Application Thread] controller.conformance.ConformancePageController - Opened model in conformance page: sepsis.decl
+2023-05-04 19:07:36,491 DEBUG   [JavaFX Application Thread] controller.conformance.FlowSettingsController - Flow settings layer initialized
+2023-05-04 19:07:36,500 DEBUG   [JavaFX Application Thread] controller.conformance.DataSettingsController - Data settings layer initialized
+2023-05-04 19:07:36,503 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Model in conformance checking tab set to: /tmp/RuM_conformance_model-170306975802831983.xml
+2023-05-04 19:07:41,062 INFO    [JavaFX Application Thread] controller.conformance.ConformanceTabController - Opened log in conformance tab: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:41,080 INFO    [pool-2-thread-1] task.conformance.ActivityMappingTask - ActivityMappingTask (133892277) started at: 1683220061071
+2023-05-04 19:07:41,519 INFO    [pool-2-thread-1] task.conformance.ActivityMappingTask - ActivityMappingTask (133892277) completed at: 1683220061513 - total time: 442
+2023-05-04 19:07:42,128 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:42,133 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:42,143 INFO    [pool-2-thread-2] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (63868924) started at: 1683220062142
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-7279170554695622501.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 1425 (msec)
+2023-05-04 19:07:45,480 INFO    [pool-2-thread-2] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (63868924) completed at: 1683220065479 - total time: 3337
+2023-05-04 19:07:45,494 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:46,662 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:46,663 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:46,671 INFO    [pool-2-thread-3] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1625958421) started at: 1683220066671
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-16171591328464448670.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 575 (msec)
+2023-05-04 19:07:47,909 INFO    [pool-2-thread-3] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1625958421) completed at: 1683220067909 - total time: 1238
+2023-05-04 19:07:47,911 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:48,850 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:48,850 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:48,856 INFO    [pool-2-thread-4] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1516486647) started at: 1683220068856
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-16921965778157515233.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 449 (msec)
+2023-05-04 19:07:49,812 INFO    [pool-2-thread-4] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1516486647) completed at: 1683220069812 - total time: 956
+2023-05-04 19:07:49,813 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:50,412 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:50,412 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:50,418 INFO    [pool-2-thread-5] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1828013316) started at: 1683220070418
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-4916014895289061887.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 486 (msec)
+2023-05-04 19:07:51,458 INFO    [pool-2-thread-5] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1828013316) completed at: 1683220071458 - total time: 1040
+2023-05-04 19:07:51,458 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:51,952 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:51,952 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:51,956 INFO    [pool-2-thread-6] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (531319344) started at: 1683220071956
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-7654837956785063288.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 444 (msec)
+2023-05-04 19:07:52,856 INFO    [pool-2-thread-6] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (531319344) completed at: 1683220072856 - total time: 900
+2023-05-04 19:07:52,857 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:53,351 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:53,352 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:53,357 INFO    [pool-2-thread-7] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (2075974276) started at: 1683220073357
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-17133389853766624380.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 523 (msec)
+2023-05-04 19:07:54,367 INFO    [pool-2-thread-7] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (2075974276) completed at: 1683220074367 - total time: 1010
+2023-05-04 19:07:54,368 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:54,871 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:54,871 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:54,876 INFO    [pool-2-thread-8] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (96135248) started at: 1683220074876
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-6661236770954543095.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 442 (msec)
+2023-05-04 19:07:55,762 INFO    [pool-2-thread-8] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (96135248) completed at: 1683220075762 - total time: 886
+2023-05-04 19:07:55,762 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:56,246 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:56,247 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:56,252 INFO    [pool-2-thread-9] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1111208090) started at: 1683220076252
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-6850094448346108376.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 408 (msec)
+2023-05-04 19:07:57,118 INFO    [pool-2-thread-9] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1111208090) completed at: 1683220077118 - total time: 866
+2023-05-04 19:07:57,119 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:57,601 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:57,601 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:57,604 INFO    [pool-2-thread-10] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1842179630) started at: 1683220077604
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-9705707926822139215.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 453 (msec)
+2023-05-04 19:07:58,534 INFO    [pool-2-thread-10] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1842179630) completed at: 1683220078534 - total time: 930
+2023-05-04 19:07:58,534 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:07:58,976 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Result of parameter validation: true
+2023-05-04 19:07:58,977 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Starting conformance checking with model: /tmp/RuM_conformance_model-170306975802831983.xml and log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+2023-05-04 19:07:58,982 INFO    [pool-2-thread-11] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1044683471) started at: 1683220078982
+CONFIGURATION
+Log: /home/antonio/minerfulresponse/MINERful/sepsis.xes
+Model: /tmp/RuM_conformance_model_sq-3421339866925599635.xml
+
+SIMULATION
+Generating plugin context... done! 0 (sec)
+Loading log... done! 0 (sec)
+Loading model... done! 0 (sec)
+Running simulation... 
+Time required for step 1: 0 (sec)
+Time required for step 2: 0 (sec)
+Time required for step 3: 0 (sec)
+Total time required: 443 (msec)
+2023-05-04 19:07:59,864 INFO    [pool-2-thread-11] task.conformance.ConformanceTaskAnalyzer - ConformanceTaskAnalyzer (1044683471) completed at: 1683220079864 - total time: 882
+2023-05-04 19:07:59,865 DEBUG   [JavaFX Application Thread] controller.conformance.ConformanceTabController - Grouping conformance checking results by traces
+2023-05-04 19:08:00,699 INFO    [JavaFX Application Thread] theFirst.Rum - RuM closed

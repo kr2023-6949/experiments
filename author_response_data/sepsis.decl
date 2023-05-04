@@ -1,0 +1,85 @@
+activity ER Registration
+activity ER Triage
+activity ER Sepsis Triage
+activity Leucocytes
+activity CRP
+activity LacticAcid
+activity IV Antibiotics
+activity Admission NC
+activity IV Liquid
+activity Release A
+activity Return ER
+activity Admission IC
+Responded Existence[Admission IC, CRP] | | |
+Responded Existence[Admission IC, Leucocytes] | | |
+Alternate Precedence[Admission NC, Return ER] | | |
+Responded Existence[CRP, ER Registration] | | |
+Responded Existence[CRP, ER Triage] | | |
+Precedence[ER Registration, Admission IC] | | |
+Precedence[ER Registration, Admission NC] | | |
+Responded Existence[ER Registration, ER Triage] | | |
+Alternate Precedence[ER Registration, Release A] | | |
+Alternate Precedence[ER Registration, Return ER] | | |
+Responded Existence[ER Sepsis Triage, ER Registration] | | |
+Responded Existence[ER Sepsis Triage, ER Triage] | | |
+Alternate Precedence[ER Sepsis Triage, IV Antibiotics] | | |
+Precedence[ER Triage, Admission IC] | | |
+Precedence[ER Triage, Admission NC] | | |
+Responded Existence[ER Triage, ER Registration] | | |
+Alternate Precedence[ER Triage, Release A] | | |
+Alternate Precedence[ER Triage, Return ER] | | |
+Responded Existence[IV Antibiotics, CRP] | | |
+Responded Existence[IV Antibiotics, ER Registration] | | |
+Responded Existence[IV Antibiotics, ER Triage] | | |
+Responded Existence[IV Antibiotics, Leucocytes] | | |
+Responded Existence[IV Liquid, CRP] | | |
+Responded Existence[IV Liquid, ER Registration] | | |
+Responded Existence[IV Liquid, ER Sepsis Triage] | | |
+Responded Existence[IV Liquid, ER Triage] | | |
+Responded Existence[IV Liquid, IV Antibiotics] | | |
+Responded Existence[IV Liquid, Leucocytes] | | |
+Responded Existence[LacticAcid, CRP] | | |
+Responded Existence[LacticAcid, ER Registration] | | |
+Responded Existence[LacticAcid, ER Triage] | | |
+Responded Existence[LacticAcid, Leucocytes] | | |
+Responded Existence[Leucocytes, ER Registration] | | |
+Responded Existence[Leucocytes, ER Triage] | | |
+Responded Existence[CRP, Leucocytes] | | |
+Responded Existence[Admission NC, ER Sepsis Triage] | | |
+Responded Existence[ER Triage, ER Sepsis Triage] | | |
+Responded Existence[ER Registration, ER Sepsis Triage] | | |
+Alternate Precedence[Admission NC, Release A] | | |
+Alternate Precedence[ER Sepsis Triage, Release A] | | |
+Responded Existence[Leucocytes, CRP] | | |
+Responded Existence[CRP, ER Sepsis Triage] | | |
+Responded Existence[Leucocytes, ER Sepsis Triage] | | |
+Responded Existence[Admission NC, Leucocytes] | | |
+Alternate Precedence[CRP, Return ER] | | |
+Alternate Precedence[ER Sepsis Triage, Return ER] | | |
+Alternate Precedence[Leucocytes, Return ER] | | |
+Alternate Precedence[Leucocytes, Release A] | | |
+Responded Existence[LacticAcid, ER Sepsis Triage] | | |
+Responded Existence[Admission NC, CRP] | | |
+Responded Existence[Admission IC, ER Sepsis Triage] | | |
+Alternate Precedence[CRP, Release A] | | |
+Responded Existence[Admission IC, LacticAcid] | | |
+Responded Existence[IV Liquid, LacticAcid] | | |
+Responded Existence[ER Triage, Leucocytes] | | |
+Responded Existence[ER Registration, Leucocytes] | | |
+Responded Existence[ER Sepsis Triage, Leucocytes] | | |
+Responded Existence[ER Triage, CRP] | | |
+Responded Existence[ER Registration, CRP] | | |
+Responded Existence[ER Sepsis Triage, CRP] | | |
+Responded Existence[IV Antibiotics, LacticAcid] | | |
+Alternate Precedence[Release A, Return ER] | | |
+Alternate Precedence[LacticAcid, Return ER] | | |
+Responded Existence[LacticAcid, IV Antibiotics] | | |
+Responded Existence[CRP, Admission NC] | | |
+Responded Existence[Admission NC, LacticAcid] | | |
+Responded Existence[IV Antibiotics, IV Liquid] | | |
+Responded Existence[Admission IC, Admission NC] | | |
+Responded Existence[Leucocytes, Admission NC] | | |
+Responded Existence[CRP, LacticAcid] | | |
+Responded Existence[Admission IC, IV Antibiotics] | | |
+Responded Existence[Leucocytes, LacticAcid] | | |
+Alternate Precedence[LacticAcid, Release A] | | |
